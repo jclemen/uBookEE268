@@ -1,0 +1,64 @@
+\documentclass[12pt]{report}
+\usepackage{textgreek}
+\usepackage{fullpage}
+
+\begin{document}
+\title{Intro to Modern Optics uBook}
+\author{James Clements}
+\maketitle
+\tableofcontents
+\chapter{Wave Motion}
+Light acts in some ways as a wave and in other ways like a particle (does that make it a wavicle?). Understanding the basics of waves is useful for studying light. We'll examine these first as one dimensional waves to develop some first principles and then expand these fundamentals to apply to two dimensional and three dimensional waves.
+\section{One-Dimensional Waves}
+This is the easiest way to consider a wave. Consider perturbing a string or a spring by suddenly jerking one end upward and then back to it's original position. This will cause a perturbation to travel through the object. The actual material does not permanently deform as it returns to its original state and thus the disturbance advances and not the medium. The disturbance of a wave is a function of position and time and is denoted by the symbol \textpsi : 
+\[\psi (x,t) = f(x,t)\]
+
+The profile of the wave is determined by setting time equal to zero as in: 
+\[\psi(x,t)|_{t=0} = f(x,0) = f(x) \]
+
+When considering time, a wave travels at a specific velocity \emph{v}. The distance a wave travels is simply \emph{vt}. An alternate frame of reference, \emph{S'} can be used which travels along with the pulse in time. In this frame, the pulse always looks identical to the profile when \emph{t=0}. Here, the coordinate is \emph{x'} rather than \emph{x} such that $ \psi = f(x') $. The relationship between \emph{x} and \emph{x'} is: $ x' = x - vt $. To describe the wave as someone would observe from the original reference frame, \emph{S}, we can now write that:
+\[\psi(x,t) =f(x-vt)\]
+This is the general form of the one-dimensional wavefunction. 
+\subsection{The Differential Wave Equation}
+The differential wave equation is a linear, homogeneous, second order, partial differential equation that is usually taken as the defining expression for physical waves in a lossless medium. The one-dimensional form of the wave equation is derived from the initial relation ship of $\psi(x,t) = f(x')$. Derivatives are taken twice (see Hecht, 4th edition pages 13-14 for details) to bring to the final result of:
+\begin{equation}
+\frac{\partial ^2\psi}{\partial x^2} = \frac{1}{v^2}\frac{\partial ^2\psi}{\partial t^2}
+\end{equation}
+This is the wave equation for undamped systems that do not contain sources in the region under consideration. Damping effects would be considered using a $\frac{\partial \psi}{\partial t} $ term.
+
+\section{Harmonic Waves}
+Harmonic waves have a sinusoidal profile. Any wave shape can be synthesized by a superposition of harmonic waves, so they're pretty useful. The simplest profile of a harmonic wave can be expressed as: \[\psi(x,t)|_{t=0}=\psi(x) = A\sin kx = f(x)\] where \emph{A} is the amplitude of the wave and \emph{k} is a positive constant known as teh propagation number. Transforming this into a progressive wave yields: 
+\begin{equation}
+\psi(x,t) = A\sin k(x-vt) = f(x-vt)
+\end{equation} 
+The symbol $\lambda$ represents the wavelength (also known as spatial period) of the wave and is related to $k$ by the following equation: 
+\begin{equation}
+k = 2\pi /\lambda
+\end{equation}
+
+
+\section{Glossary}
+\begin{description}
+\item[amplitude:] The maximum disturbance of a wave.
+\item[angular temporal frequency:] The number of phase angle changes per unit time, denoted as \textomega .
+\item[harmonic waves:] A wave that can be represented using sine or cosine curves. 
+\item[in-phase:] Multiple waves having a phase-angle difference of zero are in phase. The disturbance of the waves sums maximally causing a much greater intensity resultant wave.
+\item[initial phase (\textepsilon ):] The angle which is the constant contribution to the phase arising at the wave generator. This is independent of how far in space or how long in time the wave has traveled. 
+\item[longitudinal wave:] A wave in which the  medium is displaced in the direction of the motion of the wave.
+\item[monochromatic:] A wave which travels at constant frequency.
+\item[out-of-phase:] Multiple waves having a phase-angle difference of 180$^{\circ}$ are said to be out of phase. The waves interfere with each other such that the resultant wave disturbance is minimized. 
+\item[phase velocity:] The speed at which a wave profile moves. Denoted as $v = \frac{\omega}{k}$.
+\item[phasor:] An abstraction useful in expressing a harmonic wave in terms of its amplitude, \emph{A} and phase, $\phi$ as $A \angle \phi$. 
+\item[plane wave:] A planar wave that is perpendicular from a direction vector, $\mathbf{\vec{k}}$.
+\item[propagation number:] A positive constant denoted as \emph{k} used in studying harmonic waves which ensures correct units inside the sine function and can change the period of the sine wave. When \textlambda  is defined as the wavelength, $k=2\pi /\lambda$.
+\item[spacial frequency:] The number of waves per unit length, denoted by $\kappa$. Synonymous with wave number. 
+\item[superposition principle:] The principle in which multiple waves traveling along the same path are summed. 
+\item[temporal frequency:] The number of waves per unit time, denoted as \textnu. Often takes on units of Hertz (Hz). 
+\item[temporal period:] Denoted as \texttau. This is the amount of time it takes for one complete wave to pass a stationary observer.
+\item[transverse wave:] A wave in which the medium is displaced in a direction perpendicular to that of the motion of the wave
+\item[traveling wave:] A wave whose crest travels across particles.
+\item[wavefront:] The surfaces of a three-dimensional wave that join all points of equal phase. 
+\item[wave number:] The number of waves per unit length, denoted by $\kappa$. Synonymous with spacial frequency. 
+\end{description}
+
+\end{document}
