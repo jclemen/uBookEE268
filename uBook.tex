@@ -5,8 +5,10 @@
 \begin{document}
 \title{Intro to Modern Optics uBook}
 \author{James Clements}
+\date{Fall 2012}
 \maketitle
 \tableofcontents
+\part{Physics of Light}
 \chapter{Wave Motion}
 Light acts in some ways as a wave and in other ways like a particle (does that make it a wavicle?). Understanding the basics of waves is useful for studying light. We'll examine these first as one dimensional waves to develop some first principles and then expand these fundamentals to apply to two dimensional and three dimensional waves.
 \section{One-Dimensional Waves}
@@ -59,8 +61,19 @@ Another important note is that no wave is monochromatic, meaning that it has per
 \section{Phase and Phase Velocity}
 Wave equations are often written in the form: 
 \begin{equation}
-\psi(x,t)
+\psi(x,t) = A \sin (kx-\omega t +\epsilon)
 \end{equation}
+Wherein the portion inside the sine term consists of the position of the wave, $kx$, the time state of the wave, $\omega t$, and a constant, $\epsilon$ that defines the initial phase of the wave. Without the initial phase, the function would always be zero at the origin of space and time.
+
+Note once again that $\omega$ is the rate of change of phase with time:
+\[|(\frac{\partial\psi}{\partial t})_x|=\omega\]
+the rate of change of phase with distance keeping t constant is $k$:
+\[|(\frac{\partial\psi}{\partial x})_t|=k\]
+and the phase velocity, $v$, is the speed at which the wave propagates in space:
+\[(\frac{\partial x}{\partial t})_\psi = \pm \frac{\omega}{k} = \pm v  \]
+
+\section{The Superposition Principal (basics)}
+ 
 
 \section{Glossary}
 \begin{description}
@@ -85,5 +98,25 @@ Wave equations are often written in the form:
 \item[wavefront:] The surfaces of a three-dimensional wave that join all points of equal phase. 
 \item[wave number:] The number of waves per unit length, denoted by $\kappa$. Synonymous with spacial frequency. 
 \end{description}
+\section{Important Equations}
+
+\chapter{Superposition of Waves}
+\chapter{Electromagnetic Theory, Photons, and Light}
+\chapter{Polarization}
+\chapter{Interference}
+\chapter{Modern Optics - Lasers and Such}
+
+
+
+\part{Light and Matter}
+\chapter{The Propagation of light}
+\chapter{Diffraction}
+\chapter{Basics of Coherence Theory}
+
+\part{Analysis Techniques}
+\chapter{Geometrical Optics}
+\chapter{More on Geometrical Optics}
+\chapter{Fourier Optics}
+
 
 \end{document}
