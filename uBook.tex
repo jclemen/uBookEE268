@@ -73,7 +73,22 @@ and the phase velocity, $v$, is the speed at which the wave propagates in space:
 \[(\frac{\partial x}{\partial t})_\psi = \pm \frac{\omega}{k} = \pm v  \]
 
 \section{The Superposition Principal (basics)}
- 
+Since the differential wave equation is a linear partial differential equation, it holds that the sum of two individual solutions to the wave equation is also a solution to the wave equation. When two separate waves overlap in space, the resulting disturbance at each point in the region of overlap is the algebraic sum of the individual constituent waves at that location. 
+
+Waves are said to be in-phase when their phase angles are identical and can be out of phase to a limit of having a phase angle difference of \textpi. Out of phase waves give rise to interference. 
+
+\section{The Complex Representation}
+Euler's formula, $e^{i\theta} = \cos\theta+i\sin\theta$, is often a mathematically optimal way to express harmonic waves since operations such as taking a derivative and multiplying functions is much easier. It is often most convenient to express the harmonic wave as:
+\begin{equation}
+\psi(x,t) = Ae^{i(\omega t -kx+\epsilon)}
+\end{equation}
+An important note is that while the imaginary portion of the function is kept out of convenience through calculations, the real part of the equation is the actual expression of the wave. This is only done after obtaining the final result of all calculations.
+\section{Phasors and the Addition of Waves}
+Phasors are a useful abstraction for understanding waves. Phasor notation contains the amplitude and current phase angle of the wave. Phase angle is the angle by which the wave is offset from its reference state. Phasors are expressed as $$A\angle \phi $$ where $A$ is the maximum amplitude of the wave and $\phi$ is its phase angle. 
+
+When combining wavefunctions, phasors can be used similarly to vectors. The wavefunctions being summed are added head to tail in order to determine the resultant vector. 
+
+\section{Plane Waves}
 
 \section{Glossary}
 \begin{description}
@@ -99,6 +114,7 @@ and the phase velocity, $v$, is the speed at which the wave propagates in space:
 \item[wave number:] The number of waves per unit length, denoted by $\kappa$. Synonymous with spacial frequency. 
 \end{description}
 \section{Important Equations}
+
 
 \chapter{Superposition of Waves}
 \chapter{Electromagnetic Theory, Photons, and Light}

@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  26 SEP 2012 10:30
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.27)  27 SEP 2012 15:04
 entering extended mode
 **uBook.tex
-(C:\Users\James\Documents\GitHub\uBookEE268\uBook.tex
+
+("C:\Users\PrakashCAD\Documents\Jaimz\Classes\EE268 - Intro to Modern Optics\uB
+ookEE268\uBook.tex"
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -46,7 +48,8 @@ Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
-(C:\Users\James\Documents\GitHub\uBookEE268\uBook.aux)
+("C:\Users\PrakashCAD\Documents\Jaimz\Classes\EE268 - Intro to Modern Optics\uB
+ookEE268\uBook.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -73,7 +76,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\James\Documents\GitHub\uBookEE268\uBook.toc
+("C:\Users\PrakashCAD\Documents\Jaimz\Classes\EE268 - Intro to Modern Optics\uB
+ookEE268\uBook.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -138,30 +142,32 @@ Chapter 11.
 Chapter 12.
 [21
 
-] (C:\Users\James\Documents\GitHub\uBookEE268\uBook.aux) ) 
+]
+("C:\Users\PrakashCAD\Documents\Jaimz\Classes\EE268 - Intro to Modern Optics\uB
+ookEE268\uBook.aux") ) 
 Here is how much of TeX's memory you used:
- 506 strings out of 494019
- 7481 string characters out of 3143882
- 55401 words of memory out of 3000000
- 3847 multiletter control sequences out of 15000+200000
+ 507 strings out of 494019
+ 7878 string characters out of 3143867
+ 54401 words of memory out of 3000000
+ 3848 multiletter control sequences out of 15000+200000
  11728 words of font info for 38 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  23i,8n,19p,592b,181s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\James\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi600\grxn1200.pk> <C:\Use
-rs\James\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi600\grmn120
-0.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on uBook.pdf (22 pages, 128110 bytes).
+ <C:\Users\PrakashCAD\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\public\cbgreek\dpi600\grxn1200.pk> <C:\Users\PrakashCAD\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi600\grmn1200.pk><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb>
+Output written on uBook.pdf (22 pages, 133947 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
