@@ -1,6 +1,7 @@
 \documentclass[12pt]{report}
 \usepackage{textgreek}
 \usepackage{fullpage}
+\usepackage[final]{pdfpages}
 
 \begin{document}
 \title{Intro to Modern Optics uBook}
@@ -89,6 +90,33 @@ Phasors are a useful abstraction for understanding waves. Phasor notation contai
 When combining wavefunctions, phasors can be used similarly to vectors. The wavefunctions being summed are added head to tail in order to determine the resultant vector. 
 
 \section{Plane Waves}
+A plane wave is the simplest example of a three-dimensional wave, but it is extremely useful as all other three-dimensional waves can be described as a combination of plane waves.
+
+Plane waves travel along a propagation vector $\vec{k}$ whose magnitude is the propagation number, k, which has already been described in terms of harmonic waves. The equation of a plane, r, which is perpendicular to $\vec{k}$ is:
+\[\vec{k}\cdot\vec{r} = a\] where $a$ is a constant. 
+
+The general equation of a harmonic plane wave in Cartesian coordinates is:
+\[\psi(x,y,z,t) = Ae^{i(k_xx+k_yy+k_zz \mp \omega t)}\]
+
+\section{The Three-Dimensional Wave Equation}
+The three-dimensional wave equation is extremely similar to the 1-dimensional version. The only difference is that three spatial variables are taken into account. The 3-D wave equation takes on the form:
+\begin{equation}
+\nabla^2 \psi = \frac{1}{v^2}\frac{\partial\psi}{\partial t^2}
+\end{equation}
+
+where $\nabla$ is the Laplacian operator: $\nabla \equiv \frac{\partial ^2}{\partial x^2}+\frac{\partial ^2}{\partial y^2}+\frac{\partial ^2}{\partial z^2}$
+
+\section{Spherical Waves}
+Spherical waves represent a point source radiating outward or a spherical shell radiating inward. The harmonic spherical wave equation is given as:
+\begin{equation}
+\psi (r,t) = \left( \frac{\mathcal{A}}{r} \right)\cos k(r \mp vt )
+\end{equation}
+
+\section{Cylindrical Waves}
+Cylindrical waves do not have a clean solution to their differential wave equation. Bessel's equation can be used to approximate cylindrical waves of large radii:
+\[\psi(r,t) \approx \frac{\mathcal{A}}{\sqrt{r} \cos k(r \mp vt)}\]
+
+This equation best approximates what happens to a plane wave that encounters a long, narrow slit. 
 
 \section{Glossary}
 \begin{description}
@@ -114,6 +142,25 @@ When combining wavefunctions, phasors can be used similarly to vectors. The wave
 \item[wave number:] The number of waves per unit length, denoted by $\kappa$. Synonymous with spacial frequency. 
 \end{description}
 \section{Important Equations}
+\[\frac{\partial ^2\psi}{\partial x^2} = \frac{1}{v^2}\frac{\partial ^2\psi}{\partial t^2}\]
+\[\psi(x,t) = A\sin k(x-vt) = f(x-vt)\]
+\[k = 2\pi /\lambda\]
+\[\nu \equiv 1/\tau\]
+\[v = \nu\lambda\]
+\[\omega \equiv 2\pi/\tau = 2\pi\nu\]
+\[\kappa \equiv 1/\lambda\]
+\[\psi(x,t) = A \sin (kx-\omega t +\epsilon)\]
+\[\psi(x,t) = Ae^{i(\omega t -kx+\epsilon)}\]
+\[\nabla^2 \psi = \frac{1}{v^2}\frac{\partial\psi}{\partial t^2}\]
+\[\psi (r,t) = \left( \frac{\mathcal{A}}{r} \right)\cos k(r \mp vt )\]
+
+\section{Homework Problems}
+
+Due October 4, 2012.
+
+Problems from Hecht Optics Chapter 2: numbers: 4, 13, 17, 18, 22, 32
+Solutions were hand written and are shown on the following pages. 
+\includepdf[ pages=- ]{EE268HW1}
 
 
 \chapter{Superposition of Waves}
@@ -125,6 +172,7 @@ When combining wavefunctions, phasors can be used similarly to vectors. The wave
 
 
 \part{Light and Matter}
+
 \chapter{The Propagation of light}
 \chapter{Diffraction}
 \chapter{Basics of Coherence Theory}
