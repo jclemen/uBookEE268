@@ -164,6 +164,137 @@ Solutions were hand written and are shown on the following pages.
 
 
 \chapter{Superposition of Waves}
+For certain types of waves, specifically small-amplitude linear systems, the Principle of Superposition is able to be used as a convenient method for determining how multiple waves will interact in a system. The  principle of superpositions suggests that the resultant disturbance at any point in a medium is the algebraic sum of the separate constituent waves. 
+
+\section{Addition of Waves of the Same Frequency}
+
+\subsection{The Algebraic Method}
+
+Take two harmonic electromagnetic waves, $E_1$ and $E_2$, of the form \[E(x,t) = E_0 \sin [ \omega t + \alpha(x,\epsilon)]\]  (where $\alpha(x,\epsilon) = -(kx+\epsilon)$ is used to separate the spatial terms from the temporal terms) are occupying the same place in space such that they interact with one another. By grouping terms the equations can be written out as: 
+\[E_1 = E_{01} \sin (\omega t + \alpha_1 )\] \[E_2 = E_{02} \sin (\omega t + \alpha_2 )\]
+
+The resulting disturbance, $E = E_1+E_2$ can be written as:
+\begin{equation}
+E = E_0 \sin (\omega t + \alpha)
+\end{equation}
+where
+\begin{equation}
+E_0 ^2 = E_{01} ^2 + E_{02} ^2 + 2E_{01}E_{02} \cos (\alpha_2 - \alpha_1)
+\end{equation}
+\begin{equation}
+\tan \alpha = \frac{E_{01} \sin \alpha_1 + E_{02} \sin \alpha_2}{E_{01} \cos \alpha_1 + E_{02} \cos \alpha_2}
+\end{equation}
+
+The term: $2E_{01}E_{02} \cos (\alpha_2 - \alpha_1)$ is the interference term which contains the crucial phase difference term: \[\delta \equiv (\alpha_2-\alpha_1)\] which can arise from a difference in path length as well as a difference in initial phase angle such that:
+\[\delta = (kx_1+\epsilon_1) - (kx_2+\epsilon_2)\]
+\[\delta = \frac{2\pi}{\lambda}(x_1-x_2)+(\epsilon_1-\epsilon_2)\]
+where $x_1$ and $x_2$ are distances from the sources of the two waves to the point of observation. If the waves are initially in-phase at their sources, then $\epsilon_1 = \epsilon_2$.
+
+When two disturbances from the same source travel different routes before arriving at the point of observation, \[\delta = \frac{2\pi}{\lambda_0}n(x_1-x_2)\] where $n$ is the index of refraction of the medium. $n(x_1-x_2)$ is known as the optical path difference (OPD or $\Lambda$).
+
+Also, when $\epsilon_1-\epsilon_2$ is a constant value, the waves are said to be coherent. For multiple in-phase, coherent sources: \[E_0 ^2 = \left( \displaystyle\sum\limits_{i=1}^N E_{0i} \right)^2 \] which simplifies to the following when all the amplitudes are the same value of $E_{01}$:
+\[E_0 ^2 = N^2 E_{01}^2\] whereas for incoherent light: \[E_0 ^2 = N E_{01}^2\]
+
+\subsection{Standing Waves}
+
+A standing wave consists of 2 harmonic waves (possibly a reflection of a wave from the same source) which have the same frequency and period, but travel in opposite directions. A standing wave, or stationary wave, has a profile that does not move through space. Considering a case with two waves, the incident wave: $E_I$, and the reflected wave: $E_R$:
+\[E_I = E_{0I} \sin (kx+\omega t+\epsilon_I)\]
+\[E_R = E_{0R} \sin (kx+\omega t+\epsilon_R)\]
+The boundary condition of the standing wave requires that $\epsilon_1 = \epsilon_2$. Assuming that the amplitudes are the same (that is, $E_{0I} = E_{0R}$) the following equation will represent the resultant wave:
+\begin{equation}
+E(x,t) = 2E_{0I} \sin kx \cos \omega t
+\end{equation}
+The point of lowest intensity on a standing wave is called a node, and the point of highest amplitude is an amplitude. These are significant concepts in electromagnetic theory. 
+
+\section{Addition of Waves of Different frequency}
+\subsection{Beats}
+
+Beats contain 2 waves at different frequencies traveling in the same direction. They have the same initial phase angles (can assume this to be zero): 
+\[E_1 = E_{01} \cos (k_1x - \omega _1 t)\]
+\[E_2 = E_{02} \cos (k_2x - \omega _2 t)\]
+It can be shown that the total disturbance will take the form if the waves have equal amplitudes and zero initial phase angles:
+\begin{equation}
+E = 2E_{01} \cos (k_mx-\omega_m t) \cos (\bar{k}x-\bar{\omega}t)
+\end{equation}
+where
+\[\bar{\omega} \equiv \frac{1}{2}(\omega_1+\omega_2)\]
+\[\omega_m \equiv \frac{1}{2}(\omega_1-\omega_2)\]
+\[\bar{k} \equiv \frac{1}{2}(k_1+k_2)\]
+\[k_m \equiv \frac{1}{2}(k_1-k_2)\]
+The difference terms are dominated by the low frequency component, whereas the average terms of \textomega {}  and k are dominated by the high frequency component. The low frequency wave profile essentially encompasses the high frequency wave. The low frequency wave moves at the group velocity, $v_g = \frac{\omega_m}{k_1} = \left( \frac{\partial \omega }{\partial k} \right)_{\bar{\omega}}$ whereas the high frequency carrier wave travels at a phase velocity $v_c = \frac{\bar{\omega}}{\bar{k}}$. $\omega(k)$ is the dispertion relation which is a property of the medium. 
+
+\section{Anharmonic Periodic Waves}
+Some waves are not harmonic. These are hard to analyzed, so they are instead represented as superpositioning harmonic waves so that they're continuous and differentiable. The Fourier series is commonly used for this. A periodic function $f(x)$ can be represented by the following series:
+\begin{equation}
+f(x) = \frac{A_0}{2}+ \displaystyle\sum\limits_{m=1}^\infty A_m \cos mkx + \displaystyle\sum\limits_{m=1}^\infty B_m \sin mkx
+\end{equation}
+where
+\begin{equation}
+A_0 = \frac{2}{\lambda} \int_0^\lambda f(x)dx
+\end{equation}
+\begin{equation}
+A_m = \frac{2}{\lambda}\int_0^\lambda f(x) \cos mkx dx
+\end{equation}
+\begin{equation}
+B_m = \frac{2}{\lambda}\int_0^\lambda f(x) \sin mkx dx
+\end{equation}
+
+This Fourier Series Analysis business can be extrapolated into two dimensions for the discrete Fourier transform which is commonly used in image processing. 
+\section{Nonperiodic Waves}
+Nonperiodic waves do not repeat continuously. This makes Fourier series somewhat of an awkward tool to use for analysis. The Fourier integral was designed to handle such signals which are often caused by pulses and wave packets. The governing equations of the Fourier integral are as follows:
+\begin{equation}
+f(x) = \frac{1}{\pi} \left[ \int _0^\infty A(k) \cos kx dk + \int_0^\infty B(k) \sin kxdk \right]
+\end{equation}
+where:
+\begin{equation}
+A(k) = \int_{-\infty}^\infty f(x) \cos kxdx
+\end{equation}
+\begin{equation}
+B(k) = \int_{-\infty}^\infty f(x) \sin kxdx
+\end{equation}
+
+\section{Glossary}
+\begin{description}
+\item[Absorption band:] The wavelength band within which materials absorb electromagnetic energy.
+\item[Anomalous dispersion:] When the group velocity is greater than the carrier velocity in a system of waves with multiple frequencies. 
+\item[Coherence length:] The spatial length in which a wave remains within its frequency bandwidth. 
+\item[Coherence time:] The time in which a wave remains in its allocated frequency bandwidth. 
+\item[Coherent:] Waves are coherent when their initial phase difference $\varepsilon_1-\varepsilon_2 = a$ where $a$ is a constant.
+\item[Constructive interference:] Occurs when interference among waves causes an overall increase in the intensity of the disturbance. 
+\item[Destructive interference:] When the interference between waves causes an overall decrease in intensity of the distrubance. 
+\item[Dispersive medium:] A medium in which the phase velocity of a wave or group of waves depends on its frequency. 
+\item[Group velocity:] The velocity of some shape or leading edge of a pulse, it is taken as the rate at which a feature moves to be the velocity of the group of waves as a whole. 
+\item[Normal dispersion:] When group velocity is less than the carrier velocity of waves with multiple frequencies. 
+\item[Optical path difference (OPD):] The difference in two optical paths, $n(x_1-x_2)$
+\item[Power spectrum:]  A measure of the distribution of energy, or power, at each and every component frequency that has been analyzed using a discrete Fourier transform.
+\item[Standing or Stationary wave:] A wave whose profile does not move through space.
+\item[Wave packet:] A small part of a wavetrain. One pulse of a wavetrain specifically that assemble together as a continuous range of spatial frequencies. 
+\end{description}
+
+\section{Useful Equations}
+Sum of 2 waves: 
+\begin{equation}
+E = E_0 \sin (\omega t + \alpha)
+\end{equation}
+\begin{equation}
+E_0 ^2 = E_{01} ^2 + E_{02} ^2 + 2E_{01}E_{02} \cos (\alpha_2 - \alpha_1)
+\end{equation}
+\begin{equation}
+\tan \alpha = \frac{E_{01} \sin \alpha_1 + E_{02} \sin \alpha_2}{E_{01} \cos \alpha_1 + E_{02} \cos \alpha_2}
+\end{equation}
+
+Fourier Series:
+\begin{equation}
+f(x) = \frac{1}{\pi} \left[ \int _0^\infty A(k) \cos kx dk + \int_0^\infty B(k) \sin kxdk \right]
+\end{equation}
+where:
+\begin{equation}
+A(k) = \int_{-\infty}^\infty f(x) \cos kxdx
+\end{equation}
+\begin{equation}
+B(k) = \int_{-\infty}^\infty f(x) \sin kxdx
+\end{equation}
+
 \chapter{Electromagnetic Theory, Photons, and Light}
 \chapter{Polarization}
 \chapter{Interference}

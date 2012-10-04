@@ -15,15 +15,24 @@
 \contentsline {section}{\numberline {1.12}Important Equations}{9}
 \contentsline {section}{\numberline {1.13}Homework Problems}{10}
 \contentsline {chapter}{\numberline {2}Superposition of Waves}{16}
-\contentsline {chapter}{\numberline {3}Electromagnetic Theory, Photons, and Light}{17}
-\contentsline {chapter}{\numberline {4}Polarization}{18}
-\contentsline {chapter}{\numberline {5}Interference}{19}
-\contentsline {chapter}{\numberline {6}Modern Optics - Lasers and Such}{20}
-\contentsline {part}{II\hspace {1em}Light and Matter}{21}
-\contentsline {chapter}{\numberline {7}The Propagation of light}{22}
-\contentsline {chapter}{\numberline {8}Diffraction}{23}
-\contentsline {chapter}{\numberline {9}Basics of Coherence Theory}{24}
-\contentsline {part}{III\hspace {1em}Analysis Techniques}{25}
-\contentsline {chapter}{\numberline {10}Geometrical Optics}{26}
-\contentsline {chapter}{\numberline {11}More on Geometrical Optics}{27}
-\contentsline {chapter}{\numberline {12}Fourier Optics}{28}
+\contentsline {section}{\numberline {2.1}Addition of Waves of the Same Frequency}{16}
+\contentsline {subsection}{\numberline {2.1.1}The Algebraic Method}{16}
+\contentsline {subsection}{\numberline {2.1.2}Standing Waves}{17}
+\contentsline {section}{\numberline {2.2}Addition of Waves of Different frequency}{18}
+\contentsline {subsection}{\numberline {2.2.1}Beats}{18}
+\contentsline {section}{\numberline {2.3}Anharmonic Periodic Waves}{18}
+\contentsline {section}{\numberline {2.4}Nonperiodic Waves}{19}
+\contentsline {section}{\numberline {2.5}Glossary}{19}
+\contentsline {section}{\numberline {2.6}Useful Equations}{20}
+\contentsline {chapter}{\numberline {3}Electromagnetic Theory, Photons, and Light}{21}
+\contentsline {chapter}{\numberline {4}Polarization}{22}
+\contentsline {chapter}{\numberline {5}Interference}{23}
+\contentsline {chapter}{\numberline {6}Modern Optics - Lasers and Such}{24}
+\contentsline {part}{II\hspace {1em}Light and Matter}{25}
+\contentsline {chapter}{\numberline {7}The Propagation of light}{26}
+\contentsline {chapter}{\numberline {8}Diffraction}{27}
+\contentsline {chapter}{\numberline {9}Basics of Coherence Theory}{28}
+\contentsline {part}{III\hspace {1em}Analysis Techniques}{29}
+\contentsline {chapter}{\numberline {10}Geometrical Optics}{30}
+\contentsline {chapter}{\numberline {11}More on Geometrical Optics}{31}
+\contentsline {chapter}{\numberline {12}Fourier Optics}{32}
