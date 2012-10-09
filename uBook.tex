@@ -296,6 +296,113 @@ B(k) = \int_{-\infty}^\infty f(x) \sin kxdx
 \end{equation}
 
 \chapter{Electromagnetic Theory, Photons, and Light}
+\section{Basic Laws of Electromagnetic Theory}
+This is pretty much review from electricity and magnetism from undergrad physics. Specifically, Faraday's Induction Law (changing magnetic field generates current), Gauss's Laws (electric and magnetic flux), and Ampere's Circuital law (time varying current creates magnetic field). 
+
+Maxwells equations sum up the results of Faraday, Gauss, and Ampere. In derivative form, they are as follows: 
+
+\begin{equation}
+\begin{array}{c}
+\displaystyle \frac{\partial\vec{E}_z}{\partial y} - \frac{\partial\vec{E}_y}{\partial z} = \frac{\partial\vec{B}_x}{\partial t} \\
+\displaystyle\frac{\partial\vec{E}_x}{\partial z} - \frac{\partial\vec{E}_z}{\partial x} = \frac{\partial\vec{B}_y}{\partial t} \\
+\displaystyle\frac{\partial\vec{E}_y}{\partial x} - \frac{\partial\vec{E}_x}{\partial y} = \frac{\partial\vec{B}_z}{\partial t}
+\end{array}
+\end{equation}
+\begin{equation}
+\begin{array}{c}
+\displaystyle\frac{\partial\vec{B}_z}{\partial y} - \frac{\partial\vec{E}_y}{\partial z} = \mu_0\epsilon_0 \frac{\partial\vec{E}_x}{\partial t} \\
+\displaystyle\frac{\partial\vec{B}_x}{\partial z} - \frac{\partial\vec{E}_z}{\partial x} = \mu_0\epsilon_0 \frac{\partial\vec{E}_y}{\partial t} \\
+\displaystyle\frac{\partial\vec{B}_y}{\partial x} - \frac{\partial\vec{E}_x}{\partial y} = \mu_0\epsilon_0 \frac{\partial\vec{E}_z}{\partial t}
+\end{array}
+\end{equation}
+
+\begin{equation}
+\frac{\partial\vec{B}_x}{\partial x}+\frac{\partial\vec{B}_y}{\partial y}+\frac{\partial\vec{B}_z}{\partial z} = 0
+\end{equation}
+
+\begin{equation}
+\frac{\partial\vec{E}_x}{\partial x}+\frac{\partial\vec{E}_y}{\partial y}+\frac{\partial\vec{E}_z}{\partial z} = 0
+\end{equation}
+
+\section{Electromagnetic Waves}
+As their name implies, electromagnetic waves are combinations of both electric fields propagating with a magnetic field. Visible light is a small part of the spectrum of electromagnetic waves. The magnetic disturbance and the electric disturbance always travel perpendicular to one another.  
+
+\section{Energy and Momentum}
+Electromagnetic waves are capable of altering energy of all types (including kinetic) of materials they come across. The pointing vector is used to descrive the propagation of a wave and the power per unit area crossing a surface for a wave. 
+\begin{equation}
+\vec{S} = c^2\epsilon_0 \vec{E}\times\vec{B}
+\end{equation}
+Where $\vec{S}$ is the Poynting vector, c is the speed at which a wave propagates, $\epsilon_0$ is the permativity of free space, and E and B describe the electric and magnetic fields respectively. 
+
+The time-averaged value of the magnitude of this poynting vector ($\langle S \rangle_T$ is a measure of the irradiance, $I$.
+\begin{equation}
+I \equiv \langle S \rangle _T = \frac{c\epsilon_0}{2}E_0^2 = \frac{c}{\mu_0} \langle B^2 \rangle_T = \epsilon_0 c \langle E^2 \rangle_T
+\end{equation}
+
+Photons carry electromagnetic energy. It is often useful to think of the flow (or flux) of many photons instead of just 1. The mean photon flux is :
+\[\Phi = AI/h\nu_0 = P/h\nu_0\]
+
+The energy in a flow of photons is capable of exerting minimal amounts of pressure on objects in a direction that is normal to the propagation vector of the wave. This is the instantaneous pressure that would be exerted on a perfectly absorbing surface by a normally incident beam. The average radiation pressure is expressed as:
+\begin{equation}
+\langle \mathcal{P}(t) \rangle_T = \frac{\langle S(t) \rangle_t}{c} = \frac{I}{c}
+\end{equation}
+This same pressure is exerted on a source that is radiating energy 
+
+\section{Radiation}
+There are a lot of really cool things that can be done with radiation (such as optical cooling). In general, the rule when dealing with radiation is that Energy is most strongly radiated perpendicular to the acceleration causing it. 
+
+\section{Light in Bulk Matter}
+The phase speed in a medium is:
+\[v = 1/\sqrt{\epsilon\mu}\]
+The ratio of the speed of an electromagnetic wave in vacuum to that in matter is the absolute index of refraction, $n$:
+\begin{equation}
+n \equiv \frac{c}{v} = \sqrt{\frac{\epsilon \mu}{\epsilon_0 \mu_0}}
+\end{equation}
+
+\section{The Electromagnetic-Photon Spectrum}
+This is section review from most early science courses. The common forms of electromagnetic energy from low energy to high energy waves are: radio waves, microwaves, ifrared, light, ultraviolet, x-rays, and gamma rays.
+
+\section{Glossary}
+\begin{description}
+\item[Dielectric constant: ] Symbolically $K_E = \epsilon/\epsilon_0$. Also known as the relative permittivity of a material. 
+\item[Electric permittivity: ] The electrical behavior of a medium. The degree to which the material is permeated by the electric field in which it is immersed. 
+\item[Energy density: ] The radiant energy per unit volume of some region of space. ($u$)
+\item[Exitance: ]
+\item[Index of refraction: ] The ratio of the speed of an electromagnetic wave in vacuum to that in matter. 
+\item[Irradiance: ] The average energy per unit area per unit time from a light source on a surface. 
+\item[Maxwell's equations: ] Equations that describe the interactions between electricity and magnetism. 
+\item[Photon flux: ] The number of photons passing through a unit area. 
+\item[Optical power: ] The time rate of flow of radiant energy ($P$)
+\item[Orientational polarization: ]
+\item[Permeability: ] The ease at which mass moves through a medium. 
+\item[Photon: ] Stable, chargeless, massless elementary particles that exist only at the speed $c$. 
+\item[Polarization: ] The moment-by-moment direction of an electric field carried by an electromagnetic wave. 
+\item[Poynting vector: ] A vector that describes the power per unit area of a wave crossing a surface 
+\item[Radiation pressure: ] The pressure exerted on a surface normal to the propagation of an electromagnetic wave.
+\item[Relative permeability: ] The amount compared to the permeability of free space that a medium is permeable. 
+\item[Resonance frequency: ] The frequency at which the energy of the photon exactly matches the quantized energy decrease of the atom at $\mathcal{E} = h\nu$. Atoms very efficiently absorb and emit energy by shifting electrons at their resonant frequency. 
+
+\end{description}
+\section{Useful Equations}
+\[\begin{array}{c}
+\displaystyle \frac{\partial\vec{E}_z}{\partial y} - \frac{\partial\vec{E}_y}{\partial z} = \frac{\partial\vec{B}_x}{\partial t} \\
+\displaystyle\frac{\partial\vec{E}_x}{\partial z} - \frac{\partial\vec{E}_z}{\partial x} = \frac{\partial\vec{B}_y}{\partial t} \\
+\displaystyle\frac{\partial\vec{E}_y}{\partial x} - \frac{\partial\vec{E}_x}{\partial y} = \frac{\partial\vec{B}_z}{\partial t}
+\end{array}\]
+\[\begin{array}{c}
+\displaystyle\frac{\partial\vec{B}_z}{\partial y} - \frac{\partial\vec{E}_y}{\partial z} = \mu_0\epsilon_0 \frac{\partial\vec{E}_x}{\partial t} \\
+\displaystyle\frac{\partial\vec{B}_x}{\partial z} - \frac{\partial\vec{E}_z}{\partial x} = \mu_0\epsilon_0 \frac{\partial\vec{E}_y}{\partial t} \\
+\displaystyle\frac{\partial\vec{B}_y}{\partial x} - \frac{\partial\vec{E}_x}{\partial y} = \mu_0\epsilon_0 \frac{\partial\vec{E}_z}{\partial t}
+\end{array}\]
+\[\frac{\partial\vec{B}_x}{\partial x}+\frac{\partial\vec{B}_y}{\partial y}+\frac{\partial\vec{B}_z}{\partial z} = 0\]
+\[\frac{\partial\vec{E}_x}{\partial x}+\frac{\partial\vec{E}_y}{\partial y}+\frac{\partial\vec{E}_z}{\partial z} = 0\]
+\[\vec{S} = c^2\epsilon_0 \vec{E}\times\vec{B}\]
+\[I \equiv \langle S \rangle _T = \frac{c\epsilon_0}{2}E_0^2 = \frac{c}{\mu_0} \langle B^2 \rangle_T = \epsilon_0 c \langle E^2 \rangle_T\]
+\[\langle \mathcal{P}(t) \rangle_T = \frac{\langle S(t) \rangle_t}{c} = \frac{I}{c}\]
+\[v = 1/\sqrt{\epsilon\mu}\]
+\[n \equiv \frac{c}{v} = \sqrt{\frac{\epsilon \mu}{\epsilon_0 \mu_0}}\]
+
+
 \chapter{Polarization}
 \section{The nature of polarized light}
 Light in this text has previously been considered to be linearly polarized or plane-polarized. In this case, the orientation of the electrical field is constant, but it's magnitude as sign can vary in time. This disturbance occurs in a plane called a plane of vibration which is a fixed plane containing the electric field and propagation vectors. 
