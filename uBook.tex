@@ -391,7 +391,43 @@ V = \frac{I_p}{I_p+I_n}
 where $I_p$ and $I_n$ are the constituent flux densities of the polarized and "unpolarized" natural light. This gives a quantitative way to described how polarized light is. 
 
 \section{Retarders}
+A retarder is an optical element which serves to change the polarization of an incident wave. A wave of a certain polarization goes in and a wave with a different type of polarization goes out. This is accomplished by changing the relative phase of the incident beam. 
 
+If an optic axis of a uniaxial crystal (ie calcite) is arranged to be parallel to the front and back surfaces and the incident monochromatic plane wave's $\vec{E}$-field has components parallel and perpendicular to the optic axis, then two separate plane waves will propagate through the crystal. Since $v_\parallel>v_\perp$ and $n_o>n_e$: the e-wace will move across the specimen faster than the o-wave. After traveling a plate of thickness, $d$, the resultant wave has a relative phase difference of $\Delta\varphi$ (these are harmonic waves of the same frequency with orthogonal electric fields. 
+
+The relative optical path length difference is:
+\[\Lambda = d(|n_o-n_e|)\]
+since $\Delta\varphi = k_0\Lambda$, the phase difference (measured in radians) is:
+\begin{equation}
+\Delta\varphi=\frac{2\pi}{\lambda_0}d(|n_o-n_e|)
+\end{equation}
+where $\lambda_0$ is the wavelength in vacuum. 
+
+Some types of retarders: zero order retarder has the minimum thickness necessary to produce a phase difference. Multiple order retarder has a thickness corresponding to a whole number of $2\pi$ shifts plus the phase difference. Compound zero-order wave plates combine the fast axis of one retarder with the slow axis of another to compensate for temperature variations. 
+
+\subsection{The Full-Wave Plate}
+When the relative retardation or retardance, $\Delta\varphi = 2\pi$, the optical component is called a full-wave plate or full-wave retarder. Retarders of this sort only work for a narrow range of wavelengths. When the velocity of light parallel to the optic axis is faster than in the perpendicular direction, the optic axis is then referred to as the fast axis. The slow axis is then the perpendicular direction to the optic direction. For materials in which $v_\perp > v_\parallel$, the names are switched (since the perpendicular direction is now faster). 
+
+These are used to eliminate inadvertent changes in polarization state of light passing through an optical system.
+
+\subsection{The Half-Wave Plate}
+A retardation plate with retardance of $\pi$ radians between the o-waves and e-waves. These are often made of polyvinyl alcohol sheets or cellophane tape on a microscope slide. For this case, the thickness of the material satisfies:
+\[ d(| n_o - n_e |) = (2m+1)\lambda_0 /2\]
+where $m$ is an integer. 
+
+\subsection{The Quarter-Wave Plate}
+A retarder with retardance, $\Delta\varphi = \pi/2$. Crude quarter wave plates can be made from plastic food wrap. Commercial quarter-wave plates are used for their linear retardation. For this case, the thickness of the material must satisfy: 
+\[ d(| n_o - n_e |) = (4m+1)\lambda_0 /4\]
+\subsection{Fresnel Rhomb}
+The Fresnel rhomb causes a beam to be internally reflected twice, thus imparting a $90^\circ$ relative phase shift. These are almost achromatic 90 degree retarders. 
+
+\subsection{Compensators and Variable Retarders}
+A compensator is an optical device that is capable of impressing a controllable retardance on a wave. A common type of compensator, the Babinet compensator uses two triangular wedges to vary the thickness of calcite that a wave will travel through. The total phase difference (retardance) of these devices is:
+\[\Delta\varphi=\frac{2\pi}{\lambda_0}(d_1-d_2)(|n_o-n_e|)\]
+\section{Circular polarizers}
+A series combination of an appropriately oriented linear polarizer and a 90 degree retarder will perform as a circular polarizer. both $\mathcal{L}$ and $\mathcal{R}$ states can be achieved by varying the transmission axis of the linear polarizer at positive 45 degrees or negative 45 degrees measured to the fast axis of the retarder. 
+\section{Optical Activity}
+Any material that causes an $\vec{E}$-field of an incident linear plane wave to appear to rotate is deemed optically active. 
 
 \section{Glossary}
 \begin{description}
@@ -401,28 +437,28 @@ where $I_p$ and $I_n$ are the constituent flux densities of the polarized and "u
 \item[Circular birefringence: ]
 \item[Circularly polarized: ] A result of multiple waves traveling to an observer that appear to rotate circularly on a plane perpendicular to the axis of propagation. 
 \item[Cleavage plane: ] Smooths surfaces on which a material can be easily split.
-\item[Compensator: ]
-\item[Dichroism: ] the selective absorption of one of the two orthogonal $\mathcal{P}$-state components of an incident beam.
+\item[Compensator: ] An optical device that is capable of impressing a controllable retardance on a wave.
+\item[Dichroism: ] The selective absorption of one of the two orthogonal $\mathcal{P}$-state components of an incident beam.
 \item[Extraordinary ray: ] A ray that rotates with a birefringent crystal. 
 \item[Faraday effect: ]
-\item[Fast axis: ]
-\item[Half-wave plate: ]
+\item[Fast axis: ] The axis in a wave plate in which waves travel fastest. 
+\item[Half-wave plate: ] A wave plate with retardance of $\pi$ radians.
 \item[Jones vector: ]
 \item[Kerr effect: ]
 \item[Liquid Crystal: ]
 \item[Malus's law: ] $I(\theta)=I(0)\cos^2\theta$
 \item[Mueller matrix: ]
 \item[Optic axis: ] The direction in a birefrengent crystal through which light travels through one index of refraction and has a crystal such that the 2 perpendicular directions to the Optic axis direction are of another index of refraction. 
-\item[Optical cavity: ]
+\item[Optical activity: ] the phenomenon in which a material causes the elctric field of an incident linear plane wave to appear to rotate.
 \item[Ordinary ray: ] A ray that is unaffected by the rotation of a birefringent crystal.
 \item[Polarization state: ] describes if light is in a: linear or planar $\mathcal{P}$-state; right or left circularly polarized in an $\mathcal{R}$ or $\mathcal{L}$ state; or in a state of elliptical polarization which is designated as an $\mathcal{E}$ state. 
-\item[Retarder: ]
+\item[Retarder: ] An optical element that changes the polarization of an incident wave.
 \item[Stress birefringence: ]
 \item[Stokes parameters: ]
 \item[Transmission axis: ] The axis to which the light traveling out of a polarizer is parallel. 
 \item[Twisted nematic cell: ]
 \item[Uniaxial crystal: ] A crystal in which there is only one direction about which atoms are arranged symmetrically. 
-\item[Unpolarized light: ] also known as natural light. A disturbance from a source that emits randomly polarized wave packets. 
+\item[Unpolarized light: ] Also known as natural light. A disturbance from a source that emits randomly polarized wave packets. 
 
 \end{description}
 
