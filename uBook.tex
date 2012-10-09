@@ -427,40 +427,91 @@ A compensator is an optical device that is capable of impressing a controllable 
 \section{Circular polarizers}
 A series combination of an appropriately oriented linear polarizer and a 90 degree retarder will perform as a circular polarizer. both $\mathcal{L}$ and $\mathcal{R}$ states can be achieved by varying the transmission axis of the linear polarizer at positive 45 degrees or negative 45 degrees measured to the fast axis of the retarder. 
 \section{Optical Activity}
-Any material that causes an $\vec{E}$-field of an incident linear plane wave to appear to rotate is deemed optically active. 
+Any material that causes an $\vec{E}$-field of an incident linear plane wave to appear to rotate is deemed optically active. There are different types of optical activity in materials. Dextrorotary (d-rotary) and levorotary (l-rotary) and circularly birefringent are common types of optical activity in materials. The rotary power is the degree at which materials are optically active. The phenomenon has to do with the chirality of a crystal structure and is fairly complicated. 
+
+\section{Induced Optical Effects - Optical Modulators}
+Interaction with optical mediums often change their properties. 
+\subsection{Photoelasticity (stress birefringence)}
+Stress birefringence is the phenomenon exhibited when a normally transparent isotropic substance is made anisotropic by the application of mechanical stress. Cartilage for example exhibits stress birefringence. This property is often used as a tool to measure stress within a material. 
+
+\subsection{The Faraday Effect}
+The Farady Effect explains the influence of a magnetic field on light. The angle of rotation thorugh which the plane of vibration rotates when it encounters a magnetic field, $\beta$, is expressed empirically as:
+\begin{equation}
+\beta = \mathcal{V}Bd
+\end{equation}
+where B is the static magnetic flux density, d is the length of the medium traversed, and $\mathcal{V}$ is the Verdet constant which is particular to a medium and varies with frequency and temperature. 
+\subsection{The Kerr and Pockels Effects}
+The Kerr effect explains how an electric field can make a normally isotropic transparent material birefringent like a uniaxial crystal with an optic axis that corresponds to the direction of the applied field. The difference in indeces of refraction is known to be:
+\[\Delta n = n_e-n_o = \lambda_0KE^2\] where K is the Kerr constant, E is the magnitude of the electric field,  $\lambda_0$ is the wavelength in vacuum. Digital shutters for cameras often make use of the Kerr effect. 
+
+The Pockels Effect is similar to the Kerr effect in which crystals that lack a center of symmetry can have their optics modified. It is more sensitive than the Kerr effect and the cells are easier to manage. 
+
+\section{Liquid Crystals}
+ Liquid crystals are a phase of matter that interact with light in a away that is hybrid between liquids and solids. There are three types of crystals that are differentiated by molecular alignment. Nemetic liquid crystals contain molecules that are randomly positioned, yet mostly parallel. These can be manipulated for many purposes including inducing controllable birefringence and the making of displays on screens. 
+\section{A Mathematical Description of Polarization}
+ \subsection{The Stokes Parameters}
+ The Stokes parameters are four quantities that are functions only of observables of the electromagnetic wave. The polarization state of light can be described in terms of these quantities. In an experimental setup, suppose that the first filter is isotropic, the scond and thierd are linear polarizers with transmission axes orizontal and at +45 degrees, the last filter is a circular polarizer. The transmitted irradiances, $I_0, I_1, I_2, I_3$ (in order of the polarizers on the optical train) are used to define the Stokes parameters. 
+ 
+\[\mathcal{S}_0 = 2I_0\]
+\[\mathcal{S}_1 = 2I_1-2I_0\]
+\[\mathcal{S}_2 = 2I_2-2I_0\]
+\[\mathcal{S}_3 = 2I_3-2I_0\]
+
+$\mathcal{S}_0$ is the incident irradiance, and the other parameters specify the state of polarization. The stokes parameters are often grouped as a column vector, $\vec{\mathcal{S}}$.
+\subsection{The Jones Vectors}
+The Jones Vectors are another representation of polarized light that are only applicable to polarized waves. The Jones vector in column form is comprised of the instantaneous scalar components (x and y) of the electric field. The Jones vector is defined as:
+
+\[\vec{E} = \left[\begin{array}{c}
+E_x(t) \\
+E_y(t) \\
+
+\end{array} \right]\]
+\subsection{Jones and Mueller Matrices}
+These matrices are used to model the transformation of light as it travels through a polarizing element. The Mueller matrices were devised as a method for dealing with Stokes vectors. The Mueller ma
 
 \section{Glossary}
 \begin{description}
 \item[Analyzer: ] A second polarizer in an optical train used to test another polarizer. Often a mostly ideal linear polarizer is used for this purpose. 
 \item[Birefringence: ] the material property referring the the display of two different indices of refraction. Mathematically defined as $\Delta n = n_e - n_o$ where $n_e$ and $n_o$ are the index of refraction of the extraordinary arrays and the ordinary rays, respectively. 
 \item[Brewster's angle: ] The polarization angle $\theta_p$ in which the reflected angle and transmitted angle from an incident beam onto a surface is equal to 90 degrees. 
-\item[Circular birefringence: ]
+\item[Circular birefringence: ] a property of materials that posess two indices of refraction. One for $\mathcal{R}$- and one for $\mathcal{L}$-states. Denoted $n_\mathcal{R}$ and $n_\mathcal{L}$
 \item[Circularly polarized: ] A result of multiple waves traveling to an observer that appear to rotate circularly on a plane perpendicular to the axis of propagation. 
 \item[Cleavage plane: ] Smooths surfaces on which a material can be easily split.
 \item[Compensator: ] An optical device that is capable of impressing a controllable retardance on a wave.
 \item[Dichroism: ] The selective absorption of one of the two orthogonal $\mathcal{P}$-state components of an incident beam.
 \item[Extraordinary ray: ] A ray that rotates with a birefringent crystal. 
-\item[Faraday effect: ]
+\item[Faraday effect: ]The manner in which light propageted through a material medium could be influenced by the application of an external magnetic field. 
 \item[Fast axis: ] The axis in a wave plate in which waves travel fastest. 
 \item[Half-wave plate: ] A wave plate with retardance of $\pi$ radians.
-\item[Jones vector: ]
-\item[Kerr effect: ]
-\item[Liquid Crystal: ]
+\item[Jones vector: ] A representation of polarized light that is only applicable to polarized waves. 
+\item[Kerr effect: ] The effect in which an electric field $\vec{E}$ causes a material to become birefringent. 
+\item[Liquid Crystal: ] A phase of matter that possesses physical properties between those of ordinary liquids and solids. 
 \item[Malus's law: ] $I(\theta)=I(0)\cos^2\theta$
-\item[Mueller matrix: ]
+\item[Mueller matrix: ] A transformation matrix which handles the Stokes vectors and can thus handle polarized and partially polarized light. These are 4x4 matrices unlike the Jones matrix which is 2x2. 
 \item[Optic axis: ] The direction in a birefrengent crystal through which light travels through one index of refraction and has a crystal such that the 2 perpendicular directions to the Optic axis direction are of another index of refraction. 
 \item[Optical activity: ] the phenomenon in which a material causes the elctric field of an incident linear plane wave to appear to rotate.
 \item[Ordinary ray: ] A ray that is unaffected by the rotation of a birefringent crystal.
 \item[Polarization state: ] describes if light is in a: linear or planar $\mathcal{P}$-state; right or left circularly polarized in an $\mathcal{R}$ or $\mathcal{L}$ state; or in a state of elliptical polarization which is designated as an $\mathcal{E}$ state. 
 \item[Retarder: ] An optical element that changes the polarization of an incident wave.
-\item[Stress birefringence: ]
-\item[Stokes parameters: ]
+\item[Stress birefringence: ] The phenomenon exhibited when a normally transparent isotropic substance is made anisotropic by the application of mechanical stress.
+\item[Stokes parameters: ] 4 parameters designated by $\mathcal{S}_{0,1,2,3}$ that describe incident light and it's polarization state. 
 \item[Transmission axis: ] The axis to which the light traveling out of a polarizer is parallel. 
-\item[Twisted nematic cell: ]
+\item[Twisted nematic cell: ] A nemetic cell which has molecular layers that spiral about an axis. This is typically done in layers. 
 \item[Uniaxial crystal: ] A crystal in which there is only one direction about which atoms are arranged symmetrically. 
 \item[Unpolarized light: ] Also known as natural light. A disturbance from a source that emits randomly polarized wave packets. 
 
 \end{description}
+
+\section{Useful Equations}
+\[\left( \frac{E_y}{E_{0y}} \right) ^2 + \left( \frac{E_x}{E_{0x}} \right) ^2 -2 \left( \frac{E_x}{E_{0x}} \right) \left( \frac{E_y}{E_{0y}} \right) \cos \varepsilon = \sin ^2 \varepsilon\]
+\[\tan 2\alpha = \frac{2E_{0x}E_{0y}\cos \varepsilon}{E_{0x}^2 - E_{0y}^2}\]
+\[I(\theta)=I(0)\cos^2\theta\]
+\[I(0) = c\epsilon_0E_{01}^2/2\]
+\[n_i \sin \theta_p = n_t \sin \theta_t\]
+\[\tan \theta_p = n_t/n_i\]
+\[V = \frac{I_p}{I_p+I_n}\]
+\[\Delta\varphi=\frac{2\pi}{\lambda_0}d(|n_o-n_e|\]
+\[\beta = \mathcal{V}Bd\]
 
 \chapter{Interference}
 \chapter{Modern Optics - Lasers and Such}
