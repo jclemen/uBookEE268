@@ -648,40 +648,187 @@ Even through photons only exist at a speed $c$, light through a medium travels a
 
 The index of refraction arises when the absorption and emission process advances or retards the phases of the scattered photons, even as they travel at speed $c$.
 
-Therefore, a lightwave propagating thorugh any substantive medium travels at a speed $v \neq c$
+Therefore, a light wave propagating through any substantive medium travels at a speed $v \neq c$
 
 \section{Reflection}
+Drastic changes in the dielectric constant (or index of refraction) cause much reflection, small changes induce less. Gradual changes cause less changes as well. The characteristic length in question here is wavelength. Changes larger than a wavelength are gradual, less than are sudden. 
+
+The layer of scatters that primarily cause reflection are on the order of $\lambda/2$ thick. The surface of a transparent medium reflects all wavelengths about equally and doesn't appear colored in any way. 
+
+\subsection{The Law of Reflection}
+The angle of incidence equaling the angle of reflection, that is:
+\begin{equation}
+\theta_i = \theta_r
+\end{equation}
+is the Law of Reflection. 
+
+\paragraph{Rays} are lines drawn in space corresponding to the direction of flow of radiant energy. These are a convenient mathematical abstraction that the Law of Reflection allows us to employ. Rays are drawn perpendicular to the wavefronts that they represent. 
+
+The second part of the Law of Reflection is that the incident ray, the perpendicular to the surface, and the reflected ray all lie in a plane called the plane-of-incidence. 
+
+Smooth surfaces will reflect a single well defined beam, whereas surfaces that a rough in comparison to \textlambda will have many reflections in what is called diffuse reflection. This makes surfaces look shiny or dull.
+
+\section{Refraction}
+Light bends as it travels through media of different index of refraction. 
+\subsection{The Law of Refraction}
+Also known as Snell's Law states that:
+\begin{equation}
+n_i\sin\theta_i = n_t\sin\theta_t
+\end{equation}
+
+Where the i subscript refers to the incident beam and the t subscript refers to the transmitted beam. This is caused by the change in the speed of wave propagation in the different media. 
+
+Again as is the case with reflection, all rays (incident, reflected, and refracted) all lie in the plane of incidence. 
+
+A ray entering a higher-index medium bends toward the normal. On entering a medium having a lower index, the ray, rather than going straight through, will bend away from the normal. 
+
+It is sometimes useful to define a relative index of refraction. Thus, \[n_{ti} \equiv n_t/n_i = \frac{\sin\theta_i}{\sin\theta_t}\]
+
+The complete statement of the Law of Reflection can be stated as these two equivalent statements:
+\begin{equation}
+\begin{array}{c}
+n_i(\hat{k}_i \times \hat{u}_n) = n_t (\hat{k}_t \times \hat{u}_n) \\
+n_t\hat{k}_t -n_i\hat{k}_i = (n_t\cos\theta_t - n_i\cos\theta_i) \hat{u}_n
+\end{array}
+\end{equation}
+where $\hat{u}_n$ is a unit vector normal to the interface pointing in the direction from the incident to the transmitting medium (ie bisects the incident and reflecting angles). The k terms are propagation vectors. 
+
+Three important changes occur in a beam traversing an interface:
+\begin{itemize}
+\item It changes direction
+\item The beam in glass has a broader cross section than the beam in air
+\item The wavelength decreases because the frequency is unchanged while the speed decreases \[\lambda = \lambda_0/n\]
+\end{itemize}
+Note: when talking about wavelengths and colors, always assume that the vacuum wavelength ($\lambda_0$) is being referred to as this all gets messy in different media. 
+
+It is ordinarily a reasonable assumption that the reflected and refracted beams have the same frequency as the incident beam. 
+\subsection{Huygen's Principle}
+Every point on a propagating wavefront serves as the source of spherical secondary wavelets such that the wavefront at some later time is the envelope of these wavelets. 
+
+Furthermore: if the propagating wave has a frequency, $\eta$, and is transmitted through the medium at speed $v_t$, then the secondary wvelets have the same frequency and speed. 
+
+This is a simplified scattering theory and has some shortcomings. Huygen's principle is therefore a useful fiction that we can operate in for homogeneous media, but requires modifications from Fresnel and Kirchoff to be mathematically rigorous.
+\subsection{Light Rays and Normal Congruence}
+In isotropic media, rays are orthogonal trajectories of wavefronts (parallel to the propagation vector, $\vec{k}$).
+
+If a group or rays is such that we can find a surface that is orthogonal to each and every one of them, they are said to form a normal congruence. For example, the sphere formed by making a surface normal to all rays from a point source. The theorem of Malus and Dupin states that a group of rays will preserve its normal congruence after any number of reflections and refractions. 
+\section{Fermat's Principle}
+Fermat's principle states that light, in going from point S to P traverses the route having the smallest optical path. For a homogeneous medium, the Optical path length is proportional to t:
+\begin{equation}
+t = \frac{1}{c}\sum_{i=1}^m n_is_i
+\end{equation}
+where t is time, c is the speed of light, n is the index of refraction, m represents the layers that light travels through and s is the path length. The Optical Path Length (OPL) term is the summation term in that equation.
+
+For inhomogeneous media:
+\begin{equation}
+OPL = \int_S^P n(s) ds
+\end{equation}
+
+A modern form of Fermat's Principle reads: a light ray in going from point S to point P must traverse and optical path length that is stationary with respect to the variations of that path. In other words, the optical path length as a function of x must be at a minimum, maximum, or saddle point for light to traverse through it. The reason behind this is that light propagating through space with large optical path length differences will cancel each other out. 
+
+\section{The Electromagnetic Approach}
+Electromagnetic Theory gives a more complete description of incident, reflected, and transmitted radiant flux densities ($I_i, I_r, I_t$, respectively).
+\subsection{Waves at an Interface}
+Suppose incident monochromatic lightwave is planar of the form:
+\[\vec{E}_i = \vec{E}_{0i}\cos (\vec{k}_i\cdot\vec{r}-\omega_i t)\]
+Assume the $\vec{E}_{0i}$ is constant in time, that is the wave is linearly or plane polarized. Without making assumptions about directions, frequencies, wavelengths, phases, or amplitudes, can write:
+\[\vec{E}_r = \vec{E}_{0r}\cos (\vec{k}_r\cdot\vec{r}-\omega_r t+\varepsilon_r)\]
+\[\vec{E}_t = \vec{E}_{0t}\cos (\vec{k}_t\cdot\vec{r}-\omega_t t+\varepsilon_t)\]
+where $\varepsilon_r$ and $\varepsilon_t$ are phase constance relative to $\vec{E}_i$
+
+The laws of Electromagnetic Theory require the boundary condition that the total tangential component of $\vec{E}$ on one side of the surface must equal that on the other. Since $\hat{u}_n$ is the unit vecot normal to the interface, regardless of direction of electric field, the cross product of it with $\hat{u}_n$ will be tangent to the interface:
+\[\hat{u}_n\times\vec{E}_i+\hat{u}_n\times\vec{E}_r = \hat{u}_n\times \vec{E}_t\]
+
+Because of the boundary condition being independent in time,
+\[\omega_i = \omega_r = \omega_t\]
+
+These principles can be utilized to rederive the Law of Reflection, Snell's Law, and the fact that the phase difference is equal to zero. 
+\subsection{The Fresnel Equations}
+These equations which are completely general statements applying to any linear, isotropic, homogeneous media encountering an electromagnetic wave in which $\vec{E}$ is perpendicular to the plane of incidence are two of the Fesnel equations (note that $\mu_i \approx \mu_t \approx \mu_0$ is often true in which case the $\mu$ terms can be cancelled):
+\paragraph{$\vec{E}$ perpendicular to plane-of-incidence:}
+\begin{equation}
+r_\perp \equiv \left(\frac{E_{0r}}{E_{0i}}\right)_\perp = \frac{\frac{n_i}{\mu_i}\cos \theta_i-\frac{n_t}{\mu_t}\cos \theta_t}{\frac{n_i}{\mu_i}\cos \theta_i+\frac{n_t}{\mu_t}\cos \theta_t}
+\end{equation}
+\begin{equation}
+t_\perp \equiv \left(\frac{E_{0t}}{E_{0i}}\right)_\perp = \frac{2 \frac{n_i}{\mu_i}\cos \theta_i}{\frac{n_i}{\mu_i}\cos \theta_i+\frac{n_t}{\mu_t}\cos \theta_t}
+\end{equation}
+where $r_\perp$ is the amplitude reflection coefficient and $t_\perp$ is the amplitude transmission coefficient.
+
+Likewise, the Fresnel equations can be derived for the electric field is parallel to the plane of incidence:
+\paragraph{$\vec{E}$ parallel to plane-of-incidence:}
+\begin{equation}
+r_\parallel = \left(\frac{E_{0r}}{E_{0i}}\right)_\parallel = \frac{\frac{n_t}{\mu_t}\cos \theta_i-\frac{n_i}{\mu_i}\cos \theta_t}{\frac{n_i}{\mu_i}\cos \theta_i+\frac{n_t}{\mu_t}\cos \theta_t}
+\end{equation}
+\begin{equation}
+t_\parallel = \left(\frac{E_{0t}}{E_{0i}}\right)_\parallel = \frac{2 \frac{n_i}{\mu_i}\cos \theta_i}{\frac{n_i}{\mu_i}\cos \theta_t+\frac{n_t}{\mu_t}\cos \theta_i}
+\end{equation}
+
+When a wave is reflected, the component of the electric field normal to the plane-of-incidence undergoes a shift of $\pi$ radians upon reflection when the incident medium has a lower index that the transmitting medium. 
+
+\paragraph{Reflectance and Transmittance}
+Reflectance is the ratio of the reflected power to the incident power:
+\[R \equiv \frac{I_r A \cos \theta_r}{I_i A \cos \theta_i} = \frac{I_r}{I_i}\]
+
+Transmittance T of a wave traveling through A is: 
+\[T \equiv \frac{I_t \cos\theta_t}{I_i \cos\theta_i}\]
+
+Note that:
+\[R = \left(\frac{E_{0r}}{E_{0i}}\right)^2 = r^2\]
+\[T = \frac{n_t \cos \theta_t}{n_i \cos \theta_i}\left(\frac{E_{0t}}{E_{0i}}\right)^2 = \left(\frac{n_t \cos \theta_t}{n_i \cos \theta_i}\right)t^2\]
+and
+\[R+T = 1\]
+Also, these relationships are true for the parallel and perpendicular components of R and t. 
+\[R_\perp = r_\perp^2\]
+\[R_\parallel = r_\parallel^2\]
+\[T_\perp = \left(\frac{n_t \cos \theta_t}{n_i \cos \theta_i}\right)t_\perp^2\]
+\[T_\parallel = \left(\frac{n_t \cos \theta_t}{n_i \cos \theta_i}\right)t_\parallel^2\]
+\section{Total Internal Reflection}
+
+
 \section{Glossary}
 \begin{description}
 \item[Amplitude reflection: ] aka transmission coefficient
-\item[Angle of incidence: ]
+\item[Angle of incidence: ] The angle made by the incident wave and the surface. 
 \item[Beamsplitter: ]
-\item[Critical angle: ]
-\item[Diffuse reflection: ]
-\item[Evanescent wave: ]
-\item[Interference: ]
-\item[Internal/external reflection: ]
-\item[Fermat's principle: ]
+\item[Critical angle: ] The angle for which $\theta_t$, the angle of transmission through a surface from an incident ray, is  $\theta_t=\pi/2$
+\item[Diffuse reflection: ] When incident beams encounter a rough surface and do not reflect a single, well-defined beam.
+\item[Evanescent wave: ] A plane wave.
+\item[Interference: ] The potentially constructive or destructive interaction of waves. 
+\item[Internal/external reflection: ] Internal reflection is when $n_i>n_t$ and external reflection occurs when $n_i<n_t$. Where $n_i$ and $n_t$ are the indexes of refraction of the incident medium and transmitting medium, respectively. There is a $180^\circ$ relative phase shift between internally and externally reflected light. 
+\item[Fermat's principle: ] States that light, in going from point S to P, traverses the route having the smallest optical path. 
 \item[Fresnel equations: ]
 \item[Glancing incidence: ]
-\item[Huygen's principle: ]
+\item[Huygen's principle: ] the principle that states: every point on a propagating wavefront serves as the source of spherical secondary wavelets such that the wavefront at some later time is the envelope of these wavelets. This does not handle the principle of interference however. 
 \item[Law of Reflection: ]
 \item[Mie scattering: ] depends weakly on wavelength (becomes independent of it what particle size exceeds $\lambda$). Theory that explains scattering from spherical particles of any size. 
 \item[Normal incidence: ]
 \item[Optical density: ] When having a large amount of some sort of gas or dense material causes an increase in the index of refraction.
-\item[Plane of incidence: ]
-\item[Ray: ]
+\item[Plane of incidence: ] The plane on which reflected, refracted, and incident waves occur. 
+\item[Ray: ] a mathematical abstraction in which a one-dimensional line is drawn to represent light. The line is drawn in the direction that the light is traveling.
 \item[Rayleigh scattering: ] Scattering involving particles smaller than a wavelength (less than approx $\lambda/15$). Intensity is proportional to $1/\lambda^4$
-\item[Reflection: ]
-\item[Reflectance: ]
-\item[Refraction: ]
-\item[Scattering: ]
-\item[Snell's law: ]
-\item[Specular reflection: ]
+\item[Reflection: ] The phenomenon in which some light is always scattered backward when a beam of light strikes an interface. 
+\item[Reflectance: ] Denoted as R. The ratio of the reflected power (or flux) to the incident power. 
+\item[Refraction: ] The processes in which rays are bent as they travel from on medium to another with  unequal indexes of refraction. 
+\item[Scattering: ] The absorption and prompt re-emission of EM-radiation by electrons associated with atoms and molecules. 
+\item[Snell's law: ] a.k.a the first part of the Law of Refraction. Describes the bend of light as index of refraction changes. 
+\item[Specular reflection: ] A reflection that is a single well-defined beam. These happen when millions of atoms on a smooth surface combine to form the beam.
 \item[Transparent: ] Molecules that have no resonances in the visible spectrum and cannot be raised into an excited state by absorbing a quantum of light. 
-\item[Vacuum wavelength: ]
+\item[Vacuum wavelength: ] Useful in having a consistent reference to refer to wavelengths and colors. It is the wavelength of an EM wave in vacuum. Denoted as $\lambda_0$.
 \end{description}
 \section{Useful Equations}
+\[\theta_i = \theta_r\]
+\[n_i\sin\theta_i = n_t\sin\theta_t\]
+\[\begin{array}{c}
+n_i(\hat{k}_i \times \hat{u}_n) = n_t (\hat{k}_t \times \hat{u}_n) \\
+n_t\hat{k}_t -n_i\hat{k}_i = (n_t\cos\theta_t - n_i\cos\theta_i) \hat{u}_n
+\end{array}\]
+\[t = \frac{1}{c}\sum_{i=1}^m n_is_i\]
+\[OPL = \int_S^P n(s) ds\]
+\[r_\perp \equiv \left(\frac{E_{0r}}{E_{0i}}\right)_\perp = \frac{\frac{n_i}{\mu_i}\cos \theta_i-\frac{n_t}{\mu_t}\cos \theta_t}{\frac{n_i}{\mu_i}\cos \theta_i+\frac{n_t}{\mu_t}\cos \theta_t}\]
+\[t_\perp \equiv \left(\frac{E_{0t}}{E_{0i}}\right)_\perp = \frac{2 \frac{n_i}{\mu_i}\cos \theta_i}{\frac{n_i}{\mu_i}\cos \theta_i+\frac{n_t}{\mu_t}\cos \theta_t}\]
+\[r_\parallel = \left(\frac{E_{0r}}{E_{0i}}\right)_\parallel = \frac{\frac{n_t}{\mu_t}\cos \theta_i-\frac{n_i}{\mu_i}\cos \theta_t}{\frac{n_i}{\mu_i}\cos \theta_i+\frac{n_t}{\mu_t}\cos \theta_t}\]
+\[t_\parallel = \left(\frac{E_{0t}}{E_{0i}}\right)_\parallel = \frac{2 \frac{n_i}{\mu_i}\cos \theta_i}{\frac{n_i}{\mu_i}\cos \theta_t+\frac{n_t}{\mu_t}\cos \theta_i}\]
+*Note: the $\mu$ terms are often equal to each other and thus cancel. 
 
 \chapter{Diffraction}
 \chapter{Basics of Coherence Theory}

@@ -75,11 +75,25 @@
 \contentsline {subsection}{\numberline {7.1.2}The Transmission of Light Through Dense Media}{41}
 \contentsline {subsection}{\numberline {7.1.3}Transmission and the Index of Refraction}{42}
 \contentsline {section}{\numberline {7.2}Reflection}{42}
-\contentsline {section}{\numberline {7.3}Glossary}{42}
-\contentsline {section}{\numberline {7.4}Useful Equations}{43}
-\contentsline {chapter}{\numberline {8}Diffraction}{44}
-\contentsline {chapter}{\numberline {9}Basics of Coherence Theory}{45}
-\contentsline {part}{III\hspace {1em}Analysis Techniques}{46}
-\contentsline {chapter}{\numberline {10}Geometrical Optics}{47}
-\contentsline {chapter}{\numberline {11}More on Geometrical Optics}{48}
-\contentsline {chapter}{\numberline {12}Fourier Optics}{49}
+\contentsline {subsection}{\numberline {7.2.1}The Law of Reflection}{42}
+\contentsline {paragraph}{Rays}{42}
+\contentsline {section}{\numberline {7.3}Refraction}{43}
+\contentsline {subsection}{\numberline {7.3.1}The Law of Refraction}{43}
+\contentsline {subsection}{\numberline {7.3.2}Huygen's Principle}{44}
+\contentsline {subsection}{\numberline {7.3.3}Light Rays and Normal Congruence}{44}
+\contentsline {section}{\numberline {7.4}Fermat's Principle}{44}
+\contentsline {section}{\numberline {7.5}The Electromagnetic Approach}{45}
+\contentsline {subsection}{\numberline {7.5.1}Waves at an Interface}{45}
+\contentsline {subsection}{\numberline {7.5.2}The Fresnel Equations}{45}
+\contentsline {paragraph}{$\mathaccent "017E\relax {E}$ perpendicular to plane-of-incidence:}{45}
+\contentsline {paragraph}{$\mathaccent "017E\relax {E}$ parallel to plane-of-incidence:}{46}
+\contentsline {paragraph}{Reflectance and Transmittance}{46}
+\contentsline {section}{\numberline {7.6}Total Internal Reflection}{47}
+\contentsline {section}{\numberline {7.7}Glossary}{47}
+\contentsline {section}{\numberline {7.8}Useful Equations}{48}
+\contentsline {chapter}{\numberline {8}Diffraction}{50}
+\contentsline {chapter}{\numberline {9}Basics of Coherence Theory}{51}
+\contentsline {part}{III\hspace {1em}Analysis Techniques}{52}
+\contentsline {chapter}{\numberline {10}Geometrical Optics}{53}
+\contentsline {chapter}{\numberline {11}More on Geometrical Optics}{54}
+\contentsline {chapter}{\numberline {12}Fourier Optics}{55}
