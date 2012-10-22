@@ -2,6 +2,7 @@
 \usepackage{textgreek}
 \usepackage{fullpage}
 \usepackage[final]{pdfpages}
+\usepackage{graphicx}
 
 \begin{document}
 \title{Intro to Modern Optics uBook}
@@ -837,6 +838,176 @@ n_t\hat{k}_t -n_i\hat{k}_i = (n_t\cos\theta_t - n_i\cos\theta_i) \hat{u}_n
 
 \part{Analysis Techniques}
 \chapter{Geometrical Optics}
+
+\section{Introduction}
+A point from which a portion of s spherical wave diverges, or one toward which the wave segment converges, is known as a focus bundle of rays. 
+
+In geometrical optics, light is treated as ideal rays which are not diffraction limited. Geometric optics is most perfect as the wavelength of light approaches zero, but this powerful tool is still useful for larger wavelengths. 
+
+\section{Lenses}
+A lens is a refracting device that reconfigures a transmitted energy distribution. These are the most widely used optical devices and are often used for magnification of objects. Lenses often are used to reshape a wavefront in a system such as changing the divergent waves from a point source into parallel rays. (the revese is also useful in focusing parallel rays onto a point)
+
+\subsection{Aspherical Surfaces}
+Lenses are often made with hyperbolic profiles. They can be convex or concave lenses. When a parallel bundle of rays passes through a converging lens, the point to which it converges (or when passing through a diverging lens, the point from which it diverges) is a focal point of the lens. 
+
+Aspherical lenses perform extremely well, but are difficult to manufacture. They are typically used in quality optics when cost is not an issue. 
+
+\subsection{Refraction at Spherical Surfaces}
+Spherical lenses as much cheaper to produce than aspherical lenses, but image errors (aberrations) will always occur (but can be minimized).
+
+Aberration is minimized near the axis of symmetry of a spherical lens. Rays coming in around the optical axis are termed paraxial and the region in which these rays are incedent on the lens is called the paraxial region. 
+
+This image shows the parameters involved when geometrically analyzing light from a point source incident on a spherical lens (in which $n_2$, the index of refraction of the lens is greater than $n_1$, the index of refraction of the source's medium): 
+
+\includegraphics[scale=.75]{SphericalLens1.jpg}
+
+S is the source, V is the vertex when the surface is closest to the point source along the optical axis (the optical axis follows line from S to V to C to P), h is the height of an incident ray from the optical axis when it hits the surface, R is the radius of the sphere, P is the point at which the ray becomes focused, A is the point at which the ray encounters the surface, $\theta_i, \theta_r, \theta_t$ are the angles of incidence, reflection, and transmission, $s_o$ is the object distance (simply the distance between the object and the lens) and $s_1$ is the image distance (distance from the edge of the lens to the focal point inside the lens). The optical path length in this case is: $OPL = n_1 l_0 + n_2 l_i$. 
+
+Assuming that we are in the paraxial region ($\varphi$ is very small), we can simplify the distance relationships along the optical axis to: \[\frac{n_1}{s_o}+\frac{n_2}{s_i}=\frac{n_2-n_1}{R} \] which gives us the distance of the focal point or source when other geometries and material properties are known. 
+
+\subsection{Thin Lenses}
+There are various types of lenses. Thin lenses are considered to be so thin that their thickness is negligible.
+
+\paragraph{Thin-Lens Equations}
+The following image is used for the parameters in the thin lens equation: 
+
+\includegraphics[scale=.75]{ThinLens.jpg}
+
+This lens obviously has some thickness. For finding the s terms in the image, the geometrical analysis yields: \[\frac{n_m}{s_{o1}}+\frac{n_m}{s_{i2}} = (n_i-n_m)\left(\frac{1}{R_1}-\frac{1}{R_2}\right)+\frac{n_id}{(s_{i1}-d)s_{i1}} \]
+
+As the distance d approaches zero (ie, the lens is thin) the equation takes the form of the Thin-Lens Equation (Lensmaker's Formula):
+\begin{equation}
+\frac{n_m}{s_{o1}}+\frac{n_m}{s_{i2}} = (n_i-n_m)\left(\frac{1}{R_1}-\frac{1}{R_2}\right)
+\end{equation}
+
+For a lens with an air interface, $n_m$ is approximately 1, so the equation often reads:
+\[\frac{1}{s_{o1}}+\frac{1}{s_{i2}} = (n_i-1)\left(\frac{1}{R_1}-\frac{1}{R_2}\right)\]
+
+If $s_o$ is moved out to infinity, the image distance becomes the focal length, $f_i$. Similarly, the object distance becomes the focal length $f_o$. In this case,, $f_i = f_o$ which leads to:
+\begin{equation}
+\frac{1}{f} = (n_l - 1)\left(\frac{1}{R_1}-\frac{1}{R_2}\right)
+\end{equation}
+and
+\begin{equation}
+\frac{1}{s_o}+\frac{1}{s_i} = \frac{1}{f}
+\end{equation}
+Which is the Gaussian Lens Formula. 
+
+\paragraph{Focal Points and Planes}
+
+The figure below shows where the focal point will lie for different types of lenses. The dark regions correspond the a higher index of refraction than the lighter regions. 
+
+\includegraphics[scale=.45]{FocalPoint.jpg}
+
+A focal plane is the plane in which a bundle of paraxial rays will all focus when passing through a lens. It can be visualized like so:
+
+\includegraphics[scale=.75]{FocalPlane1.jpg}
+
+\paragraph{Finite Imagery}
+
+For imaging objects (not just points), we can approximate the object as having many point sources that approximately lie on a plane. The final image formed by a lens of a small planar object normal to the optical axis will itself be a small plane normal to that axis. See figure below:
+
+\includegraphics[scale=.4]{FiniteImagery.jpg}
+
+The Newtonian form of the lens equation following this geometric scheme is: 
+\begin{equation}
+x_ox_i = f^2
+\end{equation}
+A fallout from this equation is that $x_o, x_i$ have like signs and thus: the object and image must be on opposite sides of their respective focal points. 
+
+The lateral or transverse magnification, $M_T$ is the ratio of the transverse dimensions of the final image formed by an optical system to the corresponding dimension of the object. 
+\begin{equation}
+M_T \equiv \frac{y_i}{y_o} = -\frac{s_i}{s_o}
+\end{equation}
+A positive $M_T$ causes an erect image, a negatice inverts the image. All real images formed by a single thin lens will be inverted. 
+
+Note that as an object approaches a lens, the real image moves away from it. 
+\paragraph{Thin Lens Combinations}
+A possible combination of thin lenses is shown below:
+
+\includegraphics[scale=.45]{ThinLensCombo.jpg}
+
+The distance from the last surface of an optical system to the second focal point of that system is the back focal length. The distance from the vertex of the first surface to the first object focus is the front focal length. For thin lenses, the back focal length equals the front focal length such that:
+\[b.f.l = f. f.l = \frac{f_2f_1}{f_2+f_1}\]
+The thin lens as an effective focal length, $f$ such that:
+\begin{equation}
+\frac{1}{f} = \frac{1}{f_1}+\frac{1}{f_2}
+\end{equation}
+
+\section{Stops}
+\subsection{Aperture and Field Stops}
+Any element that determines the amount of light reaching the image is known as an aperture stop (A.S.). An aperture stop can be the lens boundary itself or another sort of mechanism. These are used to limit the light in a system so that oblique rays are removed. The element limiting size or angular breadth of the object that can be imaged by the system is called the field stop (F.S). The field stop limits the field of view.  
+\subsection{Entrance and Exit Pupils}
+Entrance and exit pupils are images of an aperture stop. The entrance pupil of a system is the image of the aperture stop as seen from an axial point on the object through those elements preceding the stop. The exit pupil is the image of the aperture stop as seen from an axial point on the image plain through the interposed lenses if there are any. 
+
+The chief ray is any ray from an off-axis object point that passes through the center of the aperture stop. The chief ray enters the optical system along a line directed toward the midpoint of the entrance pupil, $E_{np}$, and leaves the system along a line passing through the center of the exit pupil, $E_{xp}$ 
+
+An illustration of an entrance pupil, an exit pupil, and a chief ray are below:
+
+\includegraphics[scale=.25]{ChiefRay.jpg}
+
+A marginal ray goes from the axial object point to the rim or margin of the entrance pupil (or aperture stop). When ray tracing, it is conventional to show both a chief ray and a marginal ray. Marginal rays are often dimmer than chief rays. This process of gradual fading out of the image at points near its periphery is a process called vignetting. 
+
+\subsection{Relative Aperture and f-Number}
+The flux density at an image plane varies as $(D/f)^2$. The ration $D/f$ is called the relative aperture. The inverse of the relative aperture is the focal ratio ($f$-number) commonly written as $f/\#$
+
+\[f/\# = \equiv \frac{f}{D}\]
+
+\section{Mirrors}
+
+\section{Prisms}
+
+\section{Optical Systems}
+
+\subsection{The compound microscope}
+
+\subsection{The telescope}
+
+
+
+\section{Glossary}
+\begin{description}
+\item[Aberration: ] An image error. Happens when using spherical lenses.
+\item[Achromatic: ]
+\item[Angular deviation (wrt prisms): ]
+\item[Aperture / field stop: ] An object that limits the light rays that can travel through the system (aperture stop) or limits the field of view of the image (field stop). 
+\item[Aspheric: ] Optical elements that have one or both surfaces as neither planar nor spherical. 
+\item[Chief ray: ] The chief ray is any ray fron an off-axis object point that passes through the center of the aperture stop. The chief ray enters the optical system along a line directed toward the midpoint of the entrance pupil, $E_{np}$, and leaves the system along a line passing through the center of the exit pupil, $E_{xp}$
+\item[Collimated: ] Parallel rays.
+\item[Concave: ] describes lenses that are thinner in the middle than on the edges. 
+\item[Conjugate point: ] A point in an optical system which can be used to image or can be imaged by another point. The Principle of Reversibility allows for such a point to be equally well imaged from another point and vice versa. 
+\item[Converging lens: ] A lens that causes the incoming beam to converge, bending it more toward the central axis (usually convex lenses).
+\item[Convex: ] When lenses are thicker at their midpoints than at their edges. 
+\item[Diffraction-limited: ] An optical system limited by the fundamental limit on the degree of perfection of an optical system as is set by diffraction. 
+\item[Dispersing prism: ]
+\item[Diverging lens: ] A lens that turns rays outward away from the central axis (usually concave lenses)
+\item[Entrance/exit pupil: ] The entrance pupil of a system is the image of the aperture stop as seen from an axial point on the object through those elements preceding the stop. The exit pupil is the image of the aperture stop as seen from an axial point on the image plain through the interposed lenses if there are any. 
+\item[Erect image: ] an image that is not inverted. It has the same orientation as the object that is being imaged. 
+\item[F-number: ] The ratio of focal length to aperture. 
+\item[Focal plane: ] The plane in which a bundle of paraxial rays will all focus when passing through a lens. 
+\item[Front/back focal length: ] The distance from the last surface of an optical system to the second focal point of that system is the back focal length. The distance from the vertex of the first surface to the first object focus is the front focal length. 
+\item[Geometrical Optics: ] The process in which the subject treats the controlled manipulation of wave-fronts (or rays) by means of the interpositioning of reflecting and/or refracting bodies, neglecting any diffraction effects. 
+\item[Inverted image: ] When an image's y value (measured upward from the optical axis) changes sign when traveling through an optical system. 
+\item[Lens: ] A lens is a refracting device (ie: a discontinuity in the prevailing medium) that reconfigures a transmitted energy distribution.
+\item[Lensmaker's formula: ] The equation describing a thin lens in air: $\frac{1}{s_{o1}}+\frac{1}{s_{i2}} = (n_i-1)\left(\frac{1}{R_1}-\frac{1}{R_2}\right) $
+\item[Longitudinal magnification: ] Not the same as transverse magnification. The longitudinal magnification is the magnification in the axial direction. 
+\item[Marginal ray: ] A marginal ray goes from the axial object point to the rim or margin of the entrance pupil (or aperture stop). 
+\item[Optical axis: ] The central axis of an optical system / spherical lens.
+\item[Paraxial ray: ] Rays that arrive at shallow angles on a lens with respect to the optical axis. These will form a perfect image of an object S at point P on the optical axis. 
+\item[Real image: ] An image formed by converging rays. 
+\item[Reflecting prism: ]
+\item[Vignetting: ] The gradual fading out of the image at points near its periphery. 
+\item[Virtual image: ] An image that would be made at the equivalent focal point for diverging rays. 
+
+\end{description}
+
+\section{Useful Equations}
+\[\frac{n_m}{s_{o1}}+\frac{n_m}{s_{i2}} = (n_i-n_m)\left(\frac{1}{R_1}-\frac{1}{R_2}\right)\]
+\[\frac{1}{f} = (n_l - 1)\left(\frac{1}{R_1}-\frac{1}{R_2}\right)\]
+\[\frac{1}{s_o}+\frac{1}{s_i} = \frac{1}{f}\]
+\[x_ox_i = f^2\]
+\[M_T \equiv \frac{y_i}{y_o} = -\frac{s_i}{s_o}\]
+\[\frac{1}{f} = \frac{1}{f_1}+\frac{1}{f_2}\]
 \chapter{More on Geometrical Optics}
 \chapter{Fourier Optics}
 
