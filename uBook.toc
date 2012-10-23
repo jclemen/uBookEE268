@@ -110,11 +110,16 @@
 \contentsline {subsection}{\numberline {10.3.2}Entrance and Exit Pupils}{59}
 \contentsline {subsection}{\numberline {10.3.3}Relative Aperture and f-Number}{60}
 \contentsline {section}{\numberline {10.4}Mirrors}{60}
-\contentsline {section}{\numberline {10.5}Prisms}{60}
-\contentsline {section}{\numberline {10.6}Optical Systems}{60}
-\contentsline {subsection}{\numberline {10.6.1}The compound microscope}{60}
-\contentsline {subsection}{\numberline {10.6.2}The telescope}{60}
-\contentsline {section}{\numberline {10.7}Glossary}{60}
-\contentsline {section}{\numberline {10.8}Useful Equations}{62}
-\contentsline {chapter}{\numberline {11}More on Geometrical Optics}{63}
-\contentsline {chapter}{\numberline {12}Fourier Optics}{64}
+\contentsline {subsection}{\numberline {10.4.1}Planar Mirrors}{60}
+\contentsline {subsection}{\numberline {10.4.2}Aspherical Mirrors}{60}
+\contentsline {subsection}{\numberline {10.4.3}Spherical Mirrors}{60}
+\contentsline {section}{\numberline {10.5}Prisms}{61}
+\contentsline {subsection}{\numberline {10.5.1}Dispersing prisms}{61}
+\contentsline {subsection}{\numberline {10.5.2}Reflecting prisms}{62}
+\contentsline {section}{\numberline {10.6}Optical Systems}{62}
+\contentsline {subsection}{\numberline {10.6.1}The compound microscope}{62}
+\contentsline {subsection}{\numberline {10.6.2}The telescope}{62}
+\contentsline {section}{\numberline {10.7}Glossary}{62}
+\contentsline {section}{\numberline {10.8}Useful Equations}{64}
+\contentsline {chapter}{\numberline {11}More on Geometrical Optics}{65}
+\contentsline {chapter}{\numberline {12}Fourier Optics}{66}

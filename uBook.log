@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.3)  22 OCT 2012 15:08
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.3)  22 OCT 2012 23:43
 entering extended mode
 **uBook.tex
 (C:\Users\James\Documents\GitHub\uBookEE268\uBook.tex
@@ -353,20 +353,29 @@ mes/Documents/GitHub/uBookEE268/ThinLensCombo.jpg>]
 <ChiefRay.jpg, id=302, 843.90282pt x 675.27281pt>
 File: ChiefRay.jpg Graphic file (type jpg)
  <use ChiefRay.jpg> [59 <C:/Users/James/Documents/GitHub/uBookEE268/ChiefRay.jp
-g>] [60] [61] [62]
+g>]
+<SphericalMirror.jpg, id=306, 625.58719pt x 481.8pt>
+File: SphericalMirror.jpg Graphic file (type jpg)
+ <use SphericalMirror.jpg>
+[60] <DispersingPrism.jpg, id=311, 435.12563pt x 255.95625pt>
+File: DispersingPrism.jpg Graphic file (type jpg)
+
+<use DispersingPrism.jpg> [61 <C:/Users/James/Documents/GitHub/uBookEE268/Spher
+icalMirror.jpg> <C:/Users/James/Documents/GitHub/uBookEE268/DispersingPrism.jpg
+>] [62] [63] [64]
 Chapter 11.
-[63
+[65
 
 ]
 Chapter 12.
-[64
+[66
 
 ] (C:\Users\James\Documents\GitHub\uBookEE268\uBook.aux) ) 
 Here is how much of TeX's memory you used:
- 2646 strings out of 494019
- 37757 string characters out of 3143882
+ 2656 strings out of 494019
+ 37985 string characters out of 3143882
  103639 words of memory out of 3000000
- 5912 multiletter control sequences out of 15000+200000
+ 5920 multiletter control sequences out of 15000+200000
  11728 words of font info for 38 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  40i,18n,44p,737b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -385,9 +394,9 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on uBook.pdf (65 pages, 1000460 bytes).
+Output written on uBook.pdf (67 pages, 1075340 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
+ 386 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

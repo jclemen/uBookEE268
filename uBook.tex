@@ -954,21 +954,62 @@ The flux density at an image plane varies as $(D/f)^2$. The ration $D/f$ is call
 \[f/\# = \equiv \frac{f}{D}\]
 
 \section{Mirrors}
+\subsection{Planar Mirrors}
+Planar mirrors show an inverse image of the objects that they reflect. When a mirror is rotated by an angle $\alpha$ the angle of an incoming beam's incidence is altered by $2\alpha$.
+
+\subsection{Aspherical Mirrors}
+Aspherical mirrors can be used to shape light waves. Parabolic mirrors can be used to focus a plane wave onto a point. Mirrors also exist in hyperbolic and ellipsoid forms. Telescopes often use these geometries. 
+\subsection{Spherical Mirrors}
+Once again, spherical mirrors are cheaper than hyperbolic mirrors, but only function well under precise circumstances. The rest of the section goes into math involving the paraxial region of a spherical mirror and the formula that can be used within the paraxial region to calculate critical distances.
+
+The Mirror Formula and the equations for the focal lengths are as follows:
+
+\begin{equation}
+\frac{1}{s_o}+\frac{1}{s_i} = -\frac{2}{R}
+\end{equation}
+\begin{equation}
+f_o = f_i = -\frac{R}{2} 
+\end{equation}
+\begin{equation}
+\frac{1}{s_o}+\frac{1}{s_i} = \frac{1}{f}
+\end{equation}
+
+
+An image of the geometry for this setup is:
+
+\includegraphics[scale=.5]{SphericalMirror.jpg}
+
+$f$ is positive for concave mirrors and negative for convex mirrors. 
+
+Mirrors form finite images similarly for lenses. The equations shown in that section are extremely similar. The only one with variation is that for transverse magnification which changes to: $y_i/y_o=-s_i/s_o$
 
 \section{Prisms}
+\subsection{Dispersing prisms}
+A dispersing prism separates light into constituent frequencies through the process of dispersion. The angles involved in prism geometries can be illustrated in the following diagram:
+
+\includegraphics[scale=.5]{DispersingPrism.jpg}
+
+Snell's law for the prism is:
+\begin{equation}
+n = \frac{\sin [(\delta_m+\alpha)/2]}{\sin \alpha/2}
+\end{equation}
+\subsection{Reflecting prisms}
+Dispersion is not desirable in reflecting prisms. The main application of these guys is to move light around in a compact area. There are many types of reflecting prisms, all for different applications. Sometimes a face or faces must be silvered for the prism to work properly. 
 
 \section{Optical Systems}
 
 \subsection{The compound microscope}
+The compound microscope is a device that uses short focal length objective lenses to magnify objects nearby. A real, inverted image is produced and then magnified further by eyepieces that act as magnifying glasses. 
+
 
 \subsection{The telescope}
-
+Refracting light telescopes strongly resemble compount microscopes. The main difference is that they focus on objects that are very far away. Increasing the aperture diameter can increase the resolution of a telescope. Large lenses are difficult to manufacture, however so light-gathering mirrors (which are much easier to manufacture) are used instead in the form of reflecting telescopes. 
 
 
 \section{Glossary}
 \begin{description}
 \item[Aberration: ] An image error. Happens when using spherical lenses.
-\item[Achromatic: ]
+\item[Achromatic: ] A prisim is said to be achromatic if the reflection inside it will occur without any color preferences. 
 \item[Angular deviation (wrt prisms): ]
 \item[Aperture / field stop: ] An object that limits the light rays that can travel through the system (aperture stop) or limits the field of view of the image (field stop). 
 \item[Aspheric: ] Optical elements that have one or both surfaces as neither planar nor spherical. 
@@ -979,7 +1020,7 @@ The flux density at an image plane varies as $(D/f)^2$. The ration $D/f$ is call
 \item[Converging lens: ] A lens that causes the incoming beam to converge, bending it more toward the central axis (usually convex lenses).
 \item[Convex: ] When lenses are thicker at their midpoints than at their edges. 
 \item[Diffraction-limited: ] An optical system limited by the fundamental limit on the degree of perfection of an optical system as is set by diffraction. 
-\item[Dispersing prism: ]
+\item[Dispersing prism: ] A dispersing prism separates light into constituent frequencies through the process of dispersion. (dispersion is the material property that makes objects have indices of refraction that are variable with wavelength)
 \item[Diverging lens: ] A lens that turns rays outward away from the central axis (usually concave lenses)
 \item[Entrance/exit pupil: ] The entrance pupil of a system is the image of the aperture stop as seen from an axial point on the object through those elements preceding the stop. The exit pupil is the image of the aperture stop as seen from an axial point on the image plain through the interposed lenses if there are any. 
 \item[Erect image: ] an image that is not inverted. It has the same orientation as the object that is being imaged. 
@@ -995,7 +1036,7 @@ The flux density at an image plane varies as $(D/f)^2$. The ration $D/f$ is call
 \item[Optical axis: ] The central axis of an optical system / spherical lens.
 \item[Paraxial ray: ] Rays that arrive at shallow angles on a lens with respect to the optical axis. These will form a perfect image of an object S at point P on the optical axis. 
 \item[Real image: ] An image formed by converging rays. 
-\item[Reflecting prism: ]
+\item[Reflecting prism: ] A reflecting prism functions to change the orientation of an image or in the direction of propagation in a beam. They are not dispersive. 
 \item[Vignetting: ] The gradual fading out of the image at points near its periphery. 
 \item[Virtual image: ] An image that would be made at the equivalent focal point for diverging rays. 
 
@@ -1008,6 +1049,11 @@ The flux density at an image plane varies as $(D/f)^2$. The ration $D/f$ is call
 \[x_ox_i = f^2\]
 \[M_T \equiv \frac{y_i}{y_o} = -\frac{s_i}{s_o}\]
 \[\frac{1}{f} = \frac{1}{f_1}+\frac{1}{f_2}\]
+\[\frac{1}{s_o}+\frac{1}{s_i} = -\frac{2}{R}\]
+\[f_o = f_i = -\frac{R}{2} \]
+\[n = \frac{\sin [(\delta_m+\alpha)/2]}{\sin \alpha/2}\]
+
+
 \chapter{More on Geometrical Optics}
 \chapter{Fourier Optics}
 
