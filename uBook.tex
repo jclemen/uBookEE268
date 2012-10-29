@@ -1055,6 +1055,73 @@ Refracting light telescopes strongly resemble compount microscopes. The main dif
 
 
 \chapter{More on Geometrical Optics}
+This chapter delves into thick lenses and aberrations. It expands on earlier geometric optics analysis techniques, but doesn't go into a grotesque amount of detail. 
+\section{Thick Lenses and Lens Systems}
+The figure below shows the main geometries of interest in a thick lens:
+
+\includegraphics[scale=.35]{ThickLensGeometry.jpg}
+
+As the figure shows, thick lens optics are similar to thin lens optics. The o subscript refers to object, and the i subscript refers to the image. $F$ refers to the focal length (the first focal length (ffl) being the focal length on the object side and the back focal length (bfl) being on the image side). V refers to the point on the lens and optical axis that is closest to the object/image. H refers to principal points which lie on the principal plane (the surface approximating a plane in the paraxial region of a lens). $f$ is the focal length and is measured from the principal plane. y corresponds to the height of the object/image,  and x corresponds to the horizontal distance of the object/image from the Focal lengths (measured with positive outward from focal lengths). h is the distance from V to H. $d_l$ is the thickness of the lens. s is the horizontal distance from the object/image to the corresponding principal plane. 
+
+Not shown on the diagram are the nodal points which are found by finding where a line collinear and parallel to the incoming and outgoing rays intersect with the optical axis. When the lens is surrounded on both sides by the same medium, the nodal points will always be coincident with the principal points. 
+
+An equation for effective focal length with respect to principal planes is:
+
+\begin{equation}
+\frac{1}{f} = (n_l - 1) \left[\frac{1}{R_1} - \frac{1}{R_2} + \frac{(n_l-1)d_l}{n_lR_1R_2}\right]
+\end{equation}
+
+Where R is the radius of the spherical surface in question (1 is on object side, 2 is on image side). 
+
+\section{Analytical Ray Tracing}
+With a properly formulated optical system, any ray (paraxial or otherwise) can be traced through the system exactly. Meridional rays are easier to sketch, they are in plane with the optical axis. Skew rays, which do not intersect the axis are much more difficult to trace. 
+\subsection{Matrix Methods}
+Hecht presents an odd (non-standard) method of doing this. See course notes for this section (in appendix).
+
+Essentially, lenses and mirrors can be represented as matrices and such matrices can be used to solve ray tracing problems. 
+
+\section{Aberrations} 
+
+Lots of idealizations are made to produce simple analysis techniques. Departures from these idealized conditions are called aberrations. Chromatic aberrations arise from dispersion, when the index of refraction is wavelength dependent. Monochromatic aberrations are types of aberrations that are color independent. These are spherical aberrations, coma, and astigmatism. 
+
+\subsection{Spherical Aberrations}
+Spherical aberration corresponds to a dependence of focal length on aperture for nonparaxial rays. The distance between the axial intersection of a ray and the paraxial  focus, $F_i$, is known as the longitudinal spherical aberration (L$\cdot$SA). If a screen is placed at $F_i$, the height above the axis where a given ray strikes the screen is called the traverse (or lateral) spherical aberration (T$\cdot$SA). Spherical aberration is dependent on the shape of the lens. 
+
+Wave (wavefront) aberrations are deviations in optical path length between the actual and ideal wavefronts.
+
+\subsection{Coma}
+Coma (comatic aberration) is an image-degrading mono-chromatic aberration associated with an object point even a short distance from the axis. It comes from the fact that principal planes are not planar (they only can be approximated as planar in the paraxial region). Coma is also dependent on the shape of the lens. 
+
+\subsection{Astigmatism}
+Astigmatism describes the aberration that occurs when an object point lies far away from the optic axis which causes the incident cone of rays to strike the lens asymmetrically. This occurs in all spherical lenses, asymmetric or symmetric. The rays will have two distinct focal lengths a tangential focus and a sagittal focus. 
+
+\subsection{Field Curvature}
+Field curvature is the manifestation of a planar object normal to the optical axis not being able to be imaged as a plane outside of the paraxial region. In non-paraxial regions, the object would be imaged as a curved surface, this is known as Petzval field curvature. 
+
+\subsection{Distortion}
+Distortion comes from the fact that transverse magnification may be a function of the off-axis image distance. In paraxial theory, transverse magnification is constant. In positive (pincushion) distortion, each image point is displaed radially outward from the center, with the most distance points moving the most. Negative (barrel) distortion causes points to move inwardly towards the center. 
+
+\section{GRIN Systems}
+A GRIN lens has a GRadient INdex of refraction and is useful for reducing the amount of optical components required for a system. This often results in a higher quality imaging system. Most GRIN lenses are radially varying, they can be in the form of cylinders or rectangles (spherical GRIN lenses are also possible such as the Luneburg lens). Axial GRIN systems also exist and can be used in super resolution imaging. 
+
+\section{Glossary}
+\begin{description}
+\item[Achromatic doublet: ] Two lenses that are used in tandem to counteract chromatic aberration. It brings a range of wavelengths into common focus.
+\item[Astigmatism: ] The aberration that occurs when an object point lies far away from the optic axis which causes the incident cone of rays to strike the lens asymmetrically. 
+\item[Chromatic aberration: ] A consequence of dispersion. Aberration which arises from the fact that the index of refraction is actually a function of frequency or color. 
+\item[Coma: ] Comatic aberration. Aberration induced by the assumption that principle planes are planar. They're really curved surfaces and this throws some analyses off. 
+\item[Distortion: ] The aberration caused by transverse magnification being a function of off-axis image distance. 
+\item[GRIN lens: ] A material that has a spatial gradient index of refraction. These lenses do not need to have spherical surfaces (they can be flat). The index of refraction can vary axially, radially, or both (both would be extremely difficult to manufacture). 
+\item[Field curvature: ] The principle in which planar objects are only perfectly focused on curved surfaces after going through a lens. 
+\item[Principal plane: ] The surface approximating a plane in the paraxial region of a lens.
+\item[Spherical aberration: ] Aberration corresponding to a dependence of focal length on aperture for nonparaxial rays. 
+\end{description}
+
+\section{Useful Equations}
+Thick lens equation:
+\[\frac{1}{f} = (n_l - 1) \left[\frac{1}{R_1} - \frac{1}{R_2} + \frac{(n_l-1)d_l}{n_lR_1R_2}\right]\]
+
+
 \chapter{Fourier Optics}
 
 
