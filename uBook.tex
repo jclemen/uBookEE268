@@ -1175,6 +1175,86 @@ Thick lens equation:
 
 
 \chapter{Fourier Optics}
+\section{Fourier Transforms}
+Fourier transforms, introduced in the chapter on Superposition, are useful for determining the amplitudes and phases of light. 
 
+A function \[F(\kappa) = \mathcal{F} \{ f(x)\}  \] is the Fourier transform. This can be one dimensional or multi-dimensional (we'll stick with 2-D). 
+
+\subsection{Dirac Delta Function}
+The Dirac Delta Function represents a unit impulse into a system. It is defined as: \[\delta(x) = \left\{  \begin{array}{lr}
+       0 : x\neq 0\\
+       \infty : x = 0
+     \end{array}
+   \right.\]
+   
+such that
+\[ \int_{-\infty}^\infty \delta (x) dx = 1 \] and
+
+\begin{equation}
+\int_{-\infty}^\infty \delta (x)f(x) dx = f(0)
+\end{equation}
+
+This equation is called the sifting property as it extracts only the value of f(x) at 0. 
+
+Also note: 
+\[\int_{-\infty}^\infty \delta (x-x_0)f(x) dx = f(x_0)\] which is useful for more general cases. 
+
+Displacing the dirac function from x = 0 to x = $x_0$ transforms phase but not amplitude. 
+
+A Fourier transform of a function that is displaced in space (or time) is the transform of the undisplaced function multiplied by an exponential that is linear in phase. 
+
+\section{Optical Applications}
+Convolution theory allows us to find the Fourier transform of complex shapes such as the gaussian wave packet by spliting it up into multiple simple components and multiplying their respective fourier transforms. Mathematically put, when $g = f * h$: 
+
+\begin{equation}
+\mathcal{F}\{g\} = \mathcal{F}\{f*h\} = \mathcal{F} \{f\} \cdot \mathcal{F}\{h\} 
+\end{equation}
+
+\subsection{Correlation analysis}
+This is a means for comparing 2 signals in order to determine how similar they are. This is strongly used in otpical pattern recognition. 
+
+\section{Imagery - The Spatial Distribution of Optical Information}
+\subsection{Spatial Frequencies}
+Spatial frequencies are similar to temporal frequencies, just they occur in space instead of time. This investigates information that has spread across a region of space at a fixed location in time. 
+\subsection{Spatial Filtering}
+Spatial filtering is a powerful optical method for removing harsh boundaries such as pixel borders or lines from an image. 
+\subsection{Phase Contrast}
+Phase contrast is a method for seeing objects that are essentially invisible in terms of amplitude changes. Diffraction can be used to see tiny modulations, this is especially useful in studying transparent compartments of biological matter. 
+\subsection{Dark-Ground and Chileren Methods}
+Dark-Ground methods invert the Irradiance on a detector this process often reveals phase information about the object, but is not as high quality as phase contrast methods. 
+
+Chileren methods use spatial filtering to see defects in glass and other optical components. 
+
+\section{Glossary}
+\begin{description}
+\item[Aperture function: ] The electric field distribution across an object mask (or screen). 
+\item[Apodization: ] the process of suppressing the secondary maxima (side lobes) of a diffraction pattern. 
+\item[Autocorrelation: ] defined as : $c_{ff}(\tau) \equiv \int_{-\infty}^\infty f(t+\tau)f^*(t)dt$. The original function is displaced in time. 
+\item[Contrast: ] also known as modulation, defined by: $Modulation \equiv (I_{max} - I_{min})/(I_{max} + I_{min})$
+\item[Convolution: ] the dealing out and weighting of one function to every point of another function. 
+\item[Convolution theorem: ] states that if $g = f * h$ (where $*$ is the convolution operator) then $\mathcal{F}\{g\} = \mathcal{F}\{f*h\} = \mathcal{F} \{f\} \cdot \mathcal{F}\{h\} $ This can be used to transform different shapes such as squares and gaussian wave packets - shapes that are much more complex but are broken into smaller pieces. 
+\item[Cross-correlation: ] a measure of the similarity between two different wave forms as a function of relative time shift. 
+\item[Dark field (or dark-ground) imaging: ] Imaging in which the zeroith order disk is removed via an opaque disk and the image plane becomes completely dark - revealing phase objects since the amplitude contribution will be lowered. 
+\item[Dirac delta function: ] a mathematical representation of a unit infinite impulse. 
+\item[Fourier transform: ] A transform that brings things from the frequency domain into a spatial domain. 
+\item[Lorentz profile: ] the resonance profile of a power spectrum. 
+\item[Modulation transfer function: ] the ratio of the image modulation to the object modulation at all spatial frequencies. 
+\item[Natural linewidth: ] The frequency bandwidth arising from the finite duration of an excited state. 
+\item[Optical transfer function: ] a transfer function that describes the spatial variation of an optical system as a function of spatial frequency. 
+\item[Parseval's formula: ] $\int_{-\infty}^\infty |f(t)|^2 dt = \frac{1}{2\pi} \int_{-\infty}^\infty |F(\omega)|^2 d \omega $ The total energy is proportional to the area under the $|F(\omega)|^2$ curve. 
+\item[Phase contrast: ] The viewing of phase modulation as caused by phase objects. 
+\item[Phase object: ] objects that are effectively transparent but alter the phase of a lightwave that is passing through. 
+\item[Phase transfer function: ] the commensurate relative phase shift of an optical transfer function. 
+\item[Point spread function: ] The patch of light in the image plane when the irradiance $I_0(y,z)$ over the source element $dydz$ is 1 W/m$^2$. 
+\item[Power spectrum: ] the distribution of the energy of a waveform among its different frequency components. 
+\item[Schilieren imaging: ] A method of imaging focused on perceiving phase objects. Useful in testing optical components. 
+\item[Sifting property: ] The property of the Dirac delta function in which it extracts the value of a function at x = 0 in from an integral from negative infinity to positive infinity of the function times the delta function. 
+\item[Spatial Filtering: ] The process of altering the frequency spectrum of an image. 
+\item[Wiener-Khintchine theorem] states that autocorrelation function of a wide-sense-stationary random process has a spectral decomposition given by the power spectrum of that process
+\end{description}
+
+\section{Useful equations}
+\[\int_{-\infty}^\infty \delta (x)f(x) dx = f(0)\]
+\[\mathcal{F}\{g\} = \mathcal{F}\{f*h\} = \mathcal{F} \{f\} \cdot \mathcal{F}\{h\} \]
 
 \end{document}

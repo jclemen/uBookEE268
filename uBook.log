@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.12)  13 NOV 2012 07:02
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.12)  27 NOV 2012 00:42
 entering extended mode
 **uBook.tex
 (C:\Users\James\Documents\GitHub\uBookEE268\uBook.tex
@@ -374,7 +374,13 @@ File: ThickLensGeometry.jpg Graphic file (type jpg)
 Chapter 12.
 [71
 
-] (C:\Users\James\Documents\GitHub\uBookEE268\uBook.aux) ) 
+] [72] [73]
+Overfull \hbox (13.15833pt too wide) in paragraph at lines 1253--1254
+[]\OT1/cmr/m/n/12 states that au-to-cor-re-la-tion func-tion of a wide-sense-st
+ationary
+ []
+
+[74] (C:\Users\James\Documents\GitHub\uBookEE268\uBook.aux) ) 
 Here is how much of TeX's memory you used:
  2661 strings out of 494019
  38269 string characters out of 3143881
@@ -383,24 +389,24 @@ Here is how much of TeX's memory you used:
  11728 words of font info for 38 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  40i,18n,44p,954b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\James\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi600\grxn1200.pk> <C:\Use
-rs\James\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi600\grmn120
-0.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on uBook.pdf (72 pages, 1193122 bytes).
+ <C:\Users\James\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi600\grxn1200.pk> <C:\
+Users\James\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi600\grmn
+1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on uBook.pdf (75 pages, 1204212 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
+ 413 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

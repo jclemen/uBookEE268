@@ -140,3 +140,14 @@
 \contentsline {section}{\numberline {11.5}Glossary}{69}
 \contentsline {section}{\numberline {11.6}Useful Equations}{70}
 \contentsline {chapter}{\numberline {12}Fourier Optics}{71}
+\contentsline {section}{\numberline {12.1}Fourier Transforms}{71}
+\contentsline {subsection}{\numberline {12.1.1}Dirac Delta Function}{71}
+\contentsline {section}{\numberline {12.2}Optical Applications}{72}
+\contentsline {subsection}{\numberline {12.2.1}Correlation analysis}{72}
+\contentsline {section}{\numberline {12.3}Imagery - The Spatial Distribution of Optical Information}{72}
+\contentsline {subsection}{\numberline {12.3.1}Spatial Frequencies}{72}
+\contentsline {subsection}{\numberline {12.3.2}Spatial Filtering}{72}
+\contentsline {subsection}{\numberline {12.3.3}Phase Contrast}{72}
+\contentsline {subsection}{\numberline {12.3.4}Dark-Ground and Chileren Methods}{72}
+\contentsline {section}{\numberline {12.4}Glossary}{73}
+\contentsline {section}{\numberline {12.5}Useful equations}{74}
