@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.12)  2 DEC 2012 23:37
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.3)  3 DEC 2012 15:06
 entering extended mode
 **uBook.tex
-(C:\Users\James\Documents\GitHub\uBookEE268\uBook.tex
+
+("C:\Users\PrakashCAD\Documents\Jaimz\Classes\EE268 - Intro to Modern Optics\uB
+ookEE268\uBook.tex"
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -31,7 +33,7 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\latex\textgreek\textgreek.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textgreek\textgreek.sty"
 Package: textgreek 2011/10/09 v0.7 Greek symbols in text
 Package textgreek Info: Loading the definitions for the Greek fontencoding. on 
 input line 39.
@@ -42,11 +44,11 @@ File: lgrenc.def 2008/06/17 v2.3 Greek Encoding
 Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
 *}. on input line 69.
 )
-(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\fullpage.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
-(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
 Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -65,7 +67,7 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count90
 \calc@Cskip=\skip46
 )
-(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
 Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
@@ -85,7 +87,7 @@ Package ifpdf Info: pdfTeX in pdf mode detected.
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -124,7 +126,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
 )
-(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
 File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box26
@@ -132,7 +134,8 @@ File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count92
 \AM@templatesizebox=\box27
 )
-(C:\Users\James\Documents\GitHub\uBookEE268\uBook.aux)
+("C:\Users\PrakashCAD\Documents\Jaimz\Classes\EE268 - Intro to Modern Optics\uB
+ookEE268\uBook.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
@@ -154,7 +157,7 @@ File: lgrcmr.fd 2008/06/17 v2.3 Greek Computer Modern
 LaTeX Font Info:    ... okay on input line 7.
 \AtBeginShipoutBox=\box28
 
-(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count93
 \scratchdimen=\dimen107
@@ -174,8 +177,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 11.
  [1
 
-{C:/Users/James/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\James\Documents\GitHub\uBookEE268\uBook.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+("C:\Users\PrakashCAD\Documents\Jaimz\Classes\EE268 - Intro to Modern Optics\uB
+ookEE268\uBook.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -186,8 +190,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [2] [3] [4])
 \tf@toc=\write3
- [5]
-[6
+ [5] [6
 
 ]
 Chapter 1.
@@ -195,19 +198,19 @@ Chapter 1.
 
 ] [8] [9] [10] [11] [12]
 
-pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
-HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
-owed
+pdfTeX warning: pdflatex (file C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE26
+8 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
 
 
-pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
-HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
-owed
+pdfTeX warning: pdflatex (file C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE26
+8 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
 [13]
 
-pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
-HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
-owed
+pdfTeX warning: pdflatex (file C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE26
+8 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
 <EE268HW1.pdf, id=62, page=1, 579.73087pt x 764.18298pt>
 File: EE268HW1.pdf Graphic file (type pdf)
 
@@ -221,12 +224,12 @@ File: EE268HW1.pdf Graphic file (type pdf)
  <use EE268HW1.pdf, page 1>
 File: EE268HW1.pdf Graphic file (type pdf)
 
-<use EE268HW1.pdf, page 1> [14 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
-8HW1.pdf>]
+<use EE268HW1.pdf, page 1> [14 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE2
+68 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf>]
 
-pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
-HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
-owed
+pdfTeX warning: pdflatex (file C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE26
+8 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
 <EE268HW1.pdf, id=95, page=2, 579.60541pt x 764.25528pt>
 File: EE268HW1.pdf Graphic file (type pdf)
 
@@ -235,12 +238,12 @@ File: EE268HW1.pdf Graphic file (type pdf)
  <use EE268HW1.pdf, page 2>
 File: EE268HW1.pdf Graphic file (type pdf)
 
-<use EE268HW1.pdf, page 2> [15 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
-8HW1.pdf>]
+<use EE268HW1.pdf, page 2> [15 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE2
+68 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf>]
 
-pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
-HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
-owed
+pdfTeX warning: pdflatex (file C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE26
+8 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
 <EE268HW1.pdf, id=116, page=3, 578.16pt x 763.05077pt>
 File: EE268HW1.pdf Graphic file (type pdf)
 
@@ -249,12 +252,12 @@ File: EE268HW1.pdf Graphic file (type pdf)
  <use EE268HW1.pdf, page 3>
 File: EE268HW1.pdf Graphic file (type pdf)
 
-<use EE268HW1.pdf, page 3> [16 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
-8HW1.pdf>]
+<use EE268HW1.pdf, page 3> [16 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE2
+68 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf>]
 
-pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
-HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
-owed
+pdfTeX warning: pdflatex (file C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE26
+8 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
 <EE268HW1.pdf, id=137, page=4, 579.73087pt x 764.18298pt>
 File: EE268HW1.pdf Graphic file (type pdf)
 
@@ -263,12 +266,12 @@ File: EE268HW1.pdf Graphic file (type pdf)
  <use EE268HW1.pdf, page 4>
 File: EE268HW1.pdf Graphic file (type pdf)
 
-<use EE268HW1.pdf, page 4> [17 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
-8HW1.pdf>]
+<use EE268HW1.pdf, page 4> [17 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE2
+68 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf>]
 
-pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
-HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
-owed
+pdfTeX warning: pdflatex (file C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE26
+8 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
 <EE268HW1.pdf, id=152, page=5, 578.16pt x 763.05077pt>
 File: EE268HW1.pdf Graphic file (type pdf)
 
@@ -277,8 +280,8 @@ File: EE268HW1.pdf Graphic file (type pdf)
  <use EE268HW1.pdf, page 5>
 File: EE268HW1.pdf Graphic file (type pdf)
 
-<use EE268HW1.pdf, page 5> [18 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
-8HW1.pdf>]
+<use EE268HW1.pdf, page 5> [18 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE2
+68 - Intro to Modern Optics/uBookEE268/EE268HW1.pdf>]
 Chapter 2.
 [19
 
@@ -307,8 +310,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 1>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 1> [41 <C:/Users/James/Documents/GitHub/uBook
-EE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 1> [41 <C:/Users/PrakashCAD/Documents/Jaimz/C
+lasses/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 <opticsInterference.pdf, id=252, page=2, 614.295pt x 794.97pt>
 File: opticsInterference.pdf Graphic file (type pdf)
 
@@ -317,8 +320,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 2>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 2> [42 <C:/Users/James/Documents/GitHub/uBook
-EE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 2> [42 <C:/Users/PrakashCAD/Documents/Jaimz/C
+lasses/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 <opticsInterference.pdf, id=294, page=3, 614.295pt x 794.97pt>
 File: opticsInterference.pdf Graphic file (type pdf)
 
@@ -327,8 +330,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 3>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 3> [43 <C:/Users/James/Documents/GitHub/uBook
-EE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 3> [43 <C:/Users/PrakashCAD/Documents/Jaimz/C
+lasses/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 <opticsInterference.pdf, id=313, page=4, 614.295pt x 794.97pt>
 File: opticsInterference.pdf Graphic file (type pdf)
 
@@ -337,8 +340,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 4>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 4> [44 <C:/Users/James/Documents/GitHub/uBook
-EE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 4> [44 <C:/Users/PrakashCAD/Documents/Jaimz/C
+lasses/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 <opticsInterference.pdf, id=329, page=5, 614.295pt x 794.97pt>
 File: opticsInterference.pdf Graphic file (type pdf)
 
@@ -347,8 +350,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 5>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 5> [45 <C:/Users/James/Documents/GitHub/uBook
-EE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 5> [45 <C:/Users/PrakashCAD/Documents/Jaimz/C
+lasses/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 <opticsInterference.pdf, id=348, page=6, 614.295pt x 794.97pt>
 File: opticsInterference.pdf Graphic file (type pdf)
 
@@ -357,8 +360,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 6>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 6> [46 <C:/Users/James/Documents/GitHub/uBook
-EE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 6> [46 <C:/Users/PrakashCAD/Documents/Jaimz/C
+lasses/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 <opticsInterference.pdf, id=360, page=7, 614.295pt x 794.97pt>
 File: opticsInterference.pdf Graphic file (type pdf)
 
@@ -367,8 +370,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 7>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 7> [47 <C:/Users/James/Documents/GitHub/uBook
-EE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 7> [47 <C:/Users/PrakashCAD/Documents/Jaimz/C
+lasses/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 <opticsInterference.pdf, id=401, page=8, 614.295pt x 794.97pt>
 File: opticsInterference.pdf Graphic file (type pdf)
 
@@ -377,8 +380,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 8>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 8> [48 <C:/Users/James/Documents/GitHub/uBook
-EE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 8> [48 <C:/Users/PrakashCAD/Documents/Jaimz/C
+lasses/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 <opticsInterference.pdf, id=456, page=9, 614.295pt x 794.97pt>
 File: opticsInterference.pdf Graphic file (type pdf)
 
@@ -387,8 +390,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 9>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 9> [49 <C:/Users/James/Documents/GitHub/uBook
-EE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 9> [49 <C:/Users/PrakashCAD/Documents/Jaimz/C
+lasses/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 <opticsInterference.pdf, id=474, page=10, 614.295pt x 794.97pt>
 File: opticsInterference.pdf Graphic file (type pdf)
 
@@ -397,8 +400,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 10>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 10> [50 <C:/Users/James/Documents/GitHub/uBoo
-kEE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 10> [50 <C:/Users/PrakashCAD/Documents/Jaimz/
+Classes/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 <opticsInterference.pdf, id=488, page=11, 614.295pt x 794.97pt>
 File: opticsInterference.pdf Graphic file (type pdf)
 
@@ -407,8 +410,8 @@ File: opticsInterference.pdf Graphic file (type pdf)
  <use opticsInterference.pdf, page 11>
 File: opticsInterference.pdf Graphic file (type pdf)
 
-<use opticsInterference.pdf, page 11> [51 <C:/Users/James/Documents/GitHub/uBoo
-kEE268/opticsInterference.pdf>]
+<use opticsInterference.pdf, page 11> [51 <C:/Users/PrakashCAD/Documents/Jaimz/
+Classes/EE268 - Intro to Modern Optics/uBookEE268/opticsInterference.pdf>]
 Chapter 6.
 [52
 
@@ -435,99 +438,107 @@ Chapter 8.
 Chapter 9.
 [66
 
-]
-Overfull \hbox (12.39867pt too wide) in paragraph at lines 949--950
+] [67] [68]
+Overfull \hbox (12.39867pt too wide) in paragraph at lines 992--993
 []\OT1/cmr/m/n/12 a func-tion that rep-re-sents the time-averaged cross-correla
 tion
  []
 
-[67] [68] [69
+[69] [70] [71
 
 ]
 Chapter 10.
-[70
+[72
 
-] <SphericalLens1.jpg, id=553, 264.23718pt x 179.92218pt>
+] <SphericalLens1.jpg, id=560, 264.23718pt x 179.92218pt>
 File: SphericalLens1.jpg Graphic file (type jpg)
 
-<use SphericalLens1.jpg> <ThinLens.jpg, id=554, 438.13687pt x 238.64156pt>
+<use SphericalLens1.jpg> <ThinLens.jpg, id=561, 438.13687pt x 238.64156pt>
 File: ThinLens.jpg Graphic file (type jpg)
 
-<use ThinLens.jpg> [71 <C:/Users/James/Documents/GitHub/uBookEE268/SphericalLen
-s1.jpg>] <FocalPoint.jpg, id=558, 904.88063pt x 525.46312pt>
+<use ThinLens.jpg> [73 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE268 - Int
+ro to Modern Optics/uBookEE268/SphericalLens1.jpg>]
+<FocalPoint.jpg, id=565, 904.88063pt x 525.46312pt>
 File: FocalPoint.jpg Graphic file (type jpg)
-
-<use FocalPoint.jpg> [72 <C:/Users/James/Documents/GitHub/uBookEE268/ThinLens.j
-pg>] <FocalPlane1.jpg, id=563, 464.4853pt x 331.2375pt>
+ <use FocalPoint.jpg>
+[74 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE268 - Intro to Modern Optics
+/uBookEE268/ThinLens.jpg>] <FocalPlane1.jpg, id=569, 464.4853pt x 331.2375pt>
 File: FocalPlane1.jpg Graphic file (type jpg)
- <use FocalPlane1.jpg>
-<FiniteImagery.jpg, id=564, 922.19531pt x 502.12593pt>
+
+<use FocalPlane1.jpg> <FiniteImagery.jpg, id=570, 922.19531pt x 502.12593pt>
 File: FiniteImagery.jpg Graphic file (type jpg)
- <use FiniteImagery.jpg>
-[73 <C:/Users/James/Documents/GitHub/uBookEE268/FocalPoint.jpg> <C:/Users/James
-/Documents/GitHub/uBookEE268/FocalPlane1.jpg>]
-<ThinLensCombo.jpg, id=568, 876.27374pt x 460.72125pt>
+
+<use FiniteImagery.jpg> [75 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE268 
+- Intro to Modern Optics/uBookEE268/FocalPoint.jpg> <C:/Users/PrakashCAD/Docume
+nts/Jaimz/Classes/EE268 - Intro to Modern Optics/uBookEE268/FocalPlane1.jpg>]
+<ThinLensCombo.jpg, id=574, 876.27374pt x 460.72125pt>
 File: ThinLensCombo.jpg Graphic file (type jpg)
  <use ThinLensCombo.jpg>
-[74 <C:/Users/James/Documents/GitHub/uBookEE268/FiniteImagery.jpg> <C:/Users/Ja
-mes/Documents/GitHub/uBookEE268/ThinLensCombo.jpg>]
-<ChiefRay.jpg, id=572, 843.90282pt x 675.27281pt>
+[76 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE268 - Intro to Modern Optics
+/uBookEE268/FiniteImagery.jpg> <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE2
+68 - Intro to Modern Optics/uBookEE268/ThinLensCombo.jpg>]
+<ChiefRay.jpg, id=578, 843.90282pt x 675.27281pt>
 File: ChiefRay.jpg Graphic file (type jpg)
- <use ChiefRay.jpg> [75 <C:/Users/James/Documents/GitHub/uBookEE268/ChiefRay.jp
-g>]
-<SphericalMirror.jpg, id=576, 625.58719pt x 481.8pt>
+ <use ChiefRay.jpg> [77 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE268 - In
+tro to Modern Optics/uBookEE268/ChiefRay.jpg>] <SphericalMirror.jpg, id=582, 62
+5.58719pt x 481.8pt>
 File: SphericalMirror.jpg Graphic file (type jpg)
- <use SphericalMirror.jpg>
-[76] <DispersingPrism.jpg, id=580, 435.12563pt x 255.95625pt>
+
+<use SphericalMirror.jpg> [78]
+<DispersingPrism.jpg, id=587, 435.12563pt x 255.95625pt>
 File: DispersingPrism.jpg Graphic file (type jpg)
 
-<use DispersingPrism.jpg> [77 <C:/Users/James/Documents/GitHub/uBookEE268/Spher
-icalMirror.jpg> <C:/Users/James/Documents/GitHub/uBookEE268/DispersingPrism.jpg
->] [78] [79] [80]
+<use DispersingPrism.jpg> [79 <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE26
+8 - Intro to Modern Optics/uBookEE268/SphericalMirror.jpg> <C:/Users/PrakashCAD
+/Documents/Jaimz/Classes/EE268 - Intro to Modern Optics/uBookEE268/DispersingPr
+ism.jpg>] [80] [81] [82]
 Chapter 11.
-<ThickLensGeometry.jpg, id=594, 1254.18562pt x 456.95718pt>
+<ThickLensGeometry.jpg, id=600, 1254.18562pt x 456.95718pt>
 File: ThickLensGeometry.jpg Graphic file (type jpg)
 
-<use ThickLensGeometry.jpg> [81
+<use ThickLensGeometry.jpg> [83
 
- <C:/Users/James/Documents/GitHub/uBookEE268/ThickLensGeometry.jpg>] [82] [83] 
-[84]
+ <C:/Users/PrakashCAD/Documents/Jaimz/Classes/EE268 - Intro to Modern Optics/uB
+ookEE268/ThickLensGeometry.jpg>] [84] [85]
+[86]
 Chapter 12.
-[85
+[87
 
-] [86] [87]
-Overfull \hbox (13.15833pt too wide) in paragraph at lines 1328--1329
+] [88] [89]
+Overfull \hbox (13.15833pt too wide) in paragraph at lines 1381--1382
 []\OT1/cmr/m/n/12 states that au-to-cor-re-la-tion func-tion of a wide-sense-st
 ationary
  []
 
-[88] (C:\Users\James\Documents\GitHub\uBookEE268\uBook.aux) ) 
+[90]
+("C:\Users\PrakashCAD\Documents\Jaimz\Classes\EE268 - Intro to Modern Optics\uB
+ookEE268\uBook.aux") ) 
 Here is how much of TeX's memory you used:
  2696 strings out of 494019
- 39353 string characters out of 3143881
+ 39580 string characters out of 3143867
  103639 words of memory out of 3000000
  5958 multiletter control sequences out of 15000+200000
  11728 words of font info for 38 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  40i,18n,44p,954b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\James\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi600\grxn1200.pk> <C:\
-Users\James\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi600\grmn
-1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on uBook.pdf (89 pages, 4410470 bytes).
+ <C:\Users\PrakashCAD\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\public\cbgreek\dpi600\grxn1200.pk> <C:\Users\PrakashCAD\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi600\grmn1200.pk><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb>
+Output written on uBook.pdf (91 pages, 4422939 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
+ 683 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

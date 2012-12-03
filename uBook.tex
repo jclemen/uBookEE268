@@ -931,37 +931,90 @@ $\tilde{\Gamma}_{11}(\tau)$ is a measure of temporal coherence. The fourier tran
 Lasers are quantum devices. Understanding them requires some background in blackbody radiation and the Boltzmann distribution. 
 
 \subsection{Radiant Energy and Matter in Equilibrium}
+The Stefan-Boltzmann law for black bodies describes total radieant power, p at all wavelengths as a function of A, the area of the radiating surface, T, the absolute temperature in kelvines, and $\sigma$, the universal constant ($\sigma = 5.67033 \times 10^{-8} W/m^2 \cdot K^4$)
+\begin{equation}
+P_{black body} = \sigma A T^4
+\end{equation}
 
+Blackbodies are ideal cases, a multiplicative factor called the total emissivity, $\varepsilon$, which relates the radiated power to that of a blackbody at the same temperature thus:
+\begin{equation}
+P_{real object} = \varepsilon \sigma A T^4
+\end{equation}
+
+The power exchanged between two radiating bodies is: 
+
+\[P = \varepsilon \sigma A (T^4 - T_e^4\]
+
+where $\varepsilon = \varepsilon_{emmitted} \alpha_{absorptivity}$.
+
+
+Wien Displacement law states that the wavelength at which maximum electromagnetic energy is radiated is related to the temperature of that object - this explains why metals turn color when they are heated:
+
+\begin{equation}
+\lambda_{max} T = constant
+\end{equation}
+
+Planck's radiation law describes  intensity of a black body as a function of wavelength:
+
+\begin{equation}
+I_\lambda = \frac{2 \pi h c^2}{\lambda^5} \left[ \frac{1}{e^{\frac{hc}{\lambda k_B T}} -1} \right]
+\end{equation}
+where $k_B$ is Bultmann's constant. 
+
+\subsection{Stimulated Emission}
+Stimulated emission is the process of photons being able to probe an electron cloud into spitting out a photon without affecting the original photon. 
+
+\subsection{The Laser}
+When stimulated excitation occurs, the emitted photon is in-phase with, has the polarization of, and propagates in the same direction as the stimulating radiation. Most atoms are ordinarily in the ground state so some sort of mechanism is required to make stimulated emission happen instead of stimulated absorption. 
+
+The first laser was a Pulsed Ruby Laser - a type of three level laser. The system consisted of (1) the absoption bands, (2) the metastable state, and (3) the ground state. 
+
+For a cavity to be resonant, it simply means that standing waves exist inside of it.
+
+\subsection{The light fantastic}
+Lasers are coherent, small beams. This results in very high levels of energy and can be used to cut things. They can also induce fluorescence and phosphorescence through Raman Scattering. 
+
+ 
 
 \section{Glossary}
 
 \begin{description}
 \item[Absorption coefficient: ] a coefficient that describes how well a body can absorb electromagnetic energy. This ranges between 0 and 1. 
-\item[Beam half-width: ]
-\item[Beam waist: ]
+\item[Beam half-width: ] the distance at which the electric field of the beam drops from its maximal axial value of $E_0$ to $E_0 / e$
+\item[Beam waist: ] $w_0$ the thinnest region of a laserbeam. 
 \item[Blackbody: ] A body that absorbs all energy at all wavelengths. It's absorption coefficient is equal to 1. 
 \item[Complex degree of coherence: ] The normalized form of the mutual coherence function. 
-\item[Divergence: ]
+\item[Divergence: ] the angle that a beam makes (far from the waist) $\Theta = \frac{2 \lambda}{\pi w_0}$
 \item[Emission coefficient: ] a coefficient that describes how well a body can emit electromagnetic energy. 
-\item[Fringe visibility: ]
-\item[Lifetime (of excited state): ]
-\item[Longitudinal cavity mode: ]
+\item[Fringe visibility: ] A quantification of the contrast of interference in any system which has wave-like properties. 
+\item[Lifetime (of excited state): ] The inverse of the probability of a transition occurring per second of an excited atom. 
+\item[Longitudinal cavity mode: ] a particular standing wave pattern formed by waves confined in the cavity. Longitudinal modes correspond to the wavelengths of the wave which are reinforced by constructive interference after many reflections from the cavity's reflecting surfaces. All other wavelengths are suppressed by destructive interference. 
 \item[Mutual coherence function: ] a function that represents the time-averaged cross-correlation between the electric fields at two points separated in time by $\tau$. 
 \item[Partially coherent: ] Light that is neither fully coherent nor incoherent (ie sunlight). 
-\item[Population inversion: ]
-\item[Pulse compression: ]
-\item[Quality factor: ]
-\item[Raman scattering (stimulated and spontaneous): ]
-\item[Rayleigh range: ]
-\item[Resonant cavity: ]
-\item[Speckle: ]
-\item[Stationary wave field: ]
-\item[Stimulated absorption: ]
-\item[Stimulated emission: ]
+\item[Population inversion: ] The process of exciting atoms into an upper state, leaving lower states empty. 
+\item[Pulse compression: ] An initial laser pulse has its frequency spectrum broadend, thus allowing for the temporal pulse width to be shortened. 
+\item[Quality factor: ] Q, the term that expresses the decay of energy in a cavity. 
+\item[Raman scattering (stimulated and spontaneous): ] the property of a photon being absorbed by an atom (or encountering and being unaffected by the atom in the case of stimulated Raman scattering) and then releasing another photon of larger wavelength. 
+\item[Rayleigh range: ] The measure of the divergence of a beam - the distance over which the beam's cross-sectional area doubles.  $z_R = \frac{\pi w_0^2}{\lambda}$
+\item[Resonant cavity: ] a chamber or enclosure whose design and physical characteristics permit only energy of a specific frequency to be propagated. 
+\item[Speckle: ] a mottled pattern that arises when laser light falls on a non-specular reflecting surface. Lasers with high spatial and temporal coherence properties are likely to produce dramatic speckle effects. 
+\item[Stationary wave field: ] a field of standing waves. Occurs inside a resonant cavity. 
+\item[Stimulated absorption: ] The process of a photon being absorbed by an atom and increasing its energy state. 
+\item[Stimulated emission: ] the process by which an electron that has been perturbed by a photon with the correct energy may drop to a lower energy level and thus create another photon without changing the perturbing photon. 
 \item[Thermal radiation: ] electromagnetic energy that is emitted by all objects. The source of this is random motion of constituent atoms. 
-\item[Transition rate: ]
-\item[Transverse mode: ]
+\item[Transition rate: ] the number of atoms making transitions in energy states per second
+\item[Transverse mode: ] Like a longitudinal mode, just in the y-z plane instead of the z direction. They occur because of boundary conditions that are imposed on the wave. 
 \end{description}
+
+\section{Useful Equations}
+\[\mathcal{V}( \vec{r}) \equiv \frac{I_{max} - I_{min}}{I_{max} + I_{min}}\]
+\[\tilde{\Gamma}_{12}(\tau) \equiv \langle \tilde{E}_1(t + \tau) \tilde{E}_2 ^* (t) \rangle _T\]
+\[\tilde{\gamma}_{12} (\tau) \equiv \frac{\tilde{\Gamma}_{12}(\tau)}{\sqrt{\Gamma_{11}(0)\Gamma_{22}(0)}}\]
+\[P_{black body} = \sigma A T^4\]
+\[P_{real object} = \varepsilon \sigma A T^4\]
+\[\lambda_{max} T = constant\]
+\[I_\lambda = \frac{2 \pi h c^2}{\lambda^5} \left[ \frac{1}{e^{\frac{hc}{\lambda k_B T}} -1} \right]\]
+
 
 \part{Analysis Techniques}
 \chapter{Geometrical Optics}

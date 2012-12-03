@@ -105,56 +105,60 @@
 \contentsline {subsection}{\numberline {9.3.1}Temporal and Spatial Coherence}{67}
 \contentsline {section}{\numberline {9.4}Lasers and Laserlight}{67}
 \contentsline {subsection}{\numberline {9.4.1}Radiant Energy and Matter in Equilibrium}{67}
-\contentsline {section}{\numberline {9.5}Glossary}{67}
-\contentsline {part}{III\hspace {1em}Analysis Techniques}{69}
-\contentsline {chapter}{\numberline {10}Geometrical Optics}{70}
-\contentsline {section}{\numberline {10.1}Introduction}{70}
-\contentsline {section}{\numberline {10.2}Lenses}{70}
-\contentsline {subsection}{\numberline {10.2.1}Aspherical Surfaces}{70}
-\contentsline {subsection}{\numberline {10.2.2}Refraction at Spherical Surfaces}{70}
-\contentsline {subsection}{\numberline {10.2.3}Thin Lenses}{71}
-\contentsline {paragraph}{Thin-Lens Equations}{71}
-\contentsline {paragraph}{Focal Points and Planes}{72}
-\contentsline {paragraph}{Finite Imagery}{73}
-\contentsline {paragraph}{Thin Lens Combinations}{74}
-\contentsline {section}{\numberline {10.3}Stops}{75}
-\contentsline {subsection}{\numberline {10.3.1}Aperture and Field Stops}{75}
-\contentsline {subsection}{\numberline {10.3.2}Entrance and Exit Pupils}{75}
-\contentsline {subsection}{\numberline {10.3.3}Relative Aperture and f-Number}{76}
-\contentsline {section}{\numberline {10.4}Mirrors}{76}
-\contentsline {subsection}{\numberline {10.4.1}Planar Mirrors}{76}
-\contentsline {subsection}{\numberline {10.4.2}Aspherical Mirrors}{76}
-\contentsline {subsection}{\numberline {10.4.3}Spherical Mirrors}{76}
-\contentsline {section}{\numberline {10.5}Prisms}{77}
-\contentsline {subsection}{\numberline {10.5.1}Dispersing prisms}{77}
-\contentsline {subsection}{\numberline {10.5.2}Reflecting prisms}{78}
-\contentsline {section}{\numberline {10.6}Optical Systems}{78}
-\contentsline {subsection}{\numberline {10.6.1}The compound microscope}{78}
-\contentsline {subsection}{\numberline {10.6.2}The telescope}{78}
-\contentsline {section}{\numberline {10.7}Glossary}{78}
-\contentsline {section}{\numberline {10.8}Useful Equations}{80}
-\contentsline {chapter}{\numberline {11}More on Geometrical Optics}{81}
-\contentsline {section}{\numberline {11.1}Thick Lenses and Lens Systems}{81}
-\contentsline {section}{\numberline {11.2}Analytical Ray Tracing}{82}
-\contentsline {subsection}{\numberline {11.2.1}Matrix Methods}{82}
-\contentsline {section}{\numberline {11.3}Aberrations}{82}
-\contentsline {subsection}{\numberline {11.3.1}Spherical Aberrations}{82}
-\contentsline {subsection}{\numberline {11.3.2}Coma}{83}
-\contentsline {subsection}{\numberline {11.3.3}Astigmatism}{83}
-\contentsline {subsection}{\numberline {11.3.4}Field Curvature}{83}
-\contentsline {subsection}{\numberline {11.3.5}Distortion}{83}
-\contentsline {section}{\numberline {11.4}GRIN Systems}{83}
-\contentsline {section}{\numberline {11.5}Glossary}{83}
-\contentsline {section}{\numberline {11.6}Useful Equations}{84}
-\contentsline {chapter}{\numberline {12}Fourier Optics}{85}
-\contentsline {section}{\numberline {12.1}Fourier Transforms}{85}
-\contentsline {subsection}{\numberline {12.1.1}Dirac Delta Function}{85}
-\contentsline {section}{\numberline {12.2}Optical Applications}{86}
-\contentsline {subsection}{\numberline {12.2.1}Correlation analysis}{86}
-\contentsline {section}{\numberline {12.3}Imagery - The Spatial Distribution of Optical Information}{86}
-\contentsline {subsection}{\numberline {12.3.1}Spatial Frequencies}{86}
-\contentsline {subsection}{\numberline {12.3.2}Spatial Filtering}{86}
-\contentsline {subsection}{\numberline {12.3.3}Phase Contrast}{86}
-\contentsline {subsection}{\numberline {12.3.4}Dark-Ground and Chileren Methods}{86}
-\contentsline {section}{\numberline {12.4}Glossary}{87}
-\contentsline {section}{\numberline {12.5}Useful equations}{88}
+\contentsline {subsection}{\numberline {9.4.2}Stimulated Emission}{68}
+\contentsline {subsection}{\numberline {9.4.3}The Laser}{68}
+\contentsline {subsection}{\numberline {9.4.4}The light fantastic}{68}
+\contentsline {section}{\numberline {9.5}Glossary}{68}
+\contentsline {section}{\numberline {9.6}Useful Equations}{70}
+\contentsline {part}{III\hspace {1em}Analysis Techniques}{71}
+\contentsline {chapter}{\numberline {10}Geometrical Optics}{72}
+\contentsline {section}{\numberline {10.1}Introduction}{72}
+\contentsline {section}{\numberline {10.2}Lenses}{72}
+\contentsline {subsection}{\numberline {10.2.1}Aspherical Surfaces}{72}
+\contentsline {subsection}{\numberline {10.2.2}Refraction at Spherical Surfaces}{72}
+\contentsline {subsection}{\numberline {10.2.3}Thin Lenses}{73}
+\contentsline {paragraph}{Thin-Lens Equations}{73}
+\contentsline {paragraph}{Focal Points and Planes}{74}
+\contentsline {paragraph}{Finite Imagery}{75}
+\contentsline {paragraph}{Thin Lens Combinations}{76}
+\contentsline {section}{\numberline {10.3}Stops}{77}
+\contentsline {subsection}{\numberline {10.3.1}Aperture and Field Stops}{77}
+\contentsline {subsection}{\numberline {10.3.2}Entrance and Exit Pupils}{77}
+\contentsline {subsection}{\numberline {10.3.3}Relative Aperture and f-Number}{78}
+\contentsline {section}{\numberline {10.4}Mirrors}{78}
+\contentsline {subsection}{\numberline {10.4.1}Planar Mirrors}{78}
+\contentsline {subsection}{\numberline {10.4.2}Aspherical Mirrors}{78}
+\contentsline {subsection}{\numberline {10.4.3}Spherical Mirrors}{78}
+\contentsline {section}{\numberline {10.5}Prisms}{79}
+\contentsline {subsection}{\numberline {10.5.1}Dispersing prisms}{79}
+\contentsline {subsection}{\numberline {10.5.2}Reflecting prisms}{80}
+\contentsline {section}{\numberline {10.6}Optical Systems}{80}
+\contentsline {subsection}{\numberline {10.6.1}The compound microscope}{80}
+\contentsline {subsection}{\numberline {10.6.2}The telescope}{80}
+\contentsline {section}{\numberline {10.7}Glossary}{80}
+\contentsline {section}{\numberline {10.8}Useful Equations}{82}
+\contentsline {chapter}{\numberline {11}More on Geometrical Optics}{83}
+\contentsline {section}{\numberline {11.1}Thick Lenses and Lens Systems}{83}
+\contentsline {section}{\numberline {11.2}Analytical Ray Tracing}{84}
+\contentsline {subsection}{\numberline {11.2.1}Matrix Methods}{84}
+\contentsline {section}{\numberline {11.3}Aberrations}{84}
+\contentsline {subsection}{\numberline {11.3.1}Spherical Aberrations}{84}
+\contentsline {subsection}{\numberline {11.3.2}Coma}{85}
+\contentsline {subsection}{\numberline {11.3.3}Astigmatism}{85}
+\contentsline {subsection}{\numberline {11.3.4}Field Curvature}{85}
+\contentsline {subsection}{\numberline {11.3.5}Distortion}{85}
+\contentsline {section}{\numberline {11.4}GRIN Systems}{85}
+\contentsline {section}{\numberline {11.5}Glossary}{85}
+\contentsline {section}{\numberline {11.6}Useful Equations}{86}
+\contentsline {chapter}{\numberline {12}Fourier Optics}{87}
+\contentsline {section}{\numberline {12.1}Fourier Transforms}{87}
+\contentsline {subsection}{\numberline {12.1.1}Dirac Delta Function}{87}
+\contentsline {section}{\numberline {12.2}Optical Applications}{88}
+\contentsline {subsection}{\numberline {12.2.1}Correlation analysis}{88}
+\contentsline {section}{\numberline {12.3}Imagery - The Spatial Distribution of Optical Information}{88}
+\contentsline {subsection}{\numberline {12.3.1}Spatial Frequencies}{88}
+\contentsline {subsection}{\numberline {12.3.2}Spatial Filtering}{88}
+\contentsline {subsection}{\numberline {12.3.3}Phase Contrast}{88}
+\contentsline {subsection}{\numberline {12.3.4}Dark-Ground and Chileren Methods}{88}
+\contentsline {section}{\numberline {12.4}Glossary}{89}
+\contentsline {section}{\numberline {12.5}Useful equations}{90}
