@@ -1,153 +1,160 @@
-\contentsline {part}{I\hspace {1em}Physics of Light}{5}
-\contentsline {chapter}{\numberline {1}Wave Motion}{6}
-\contentsline {section}{\numberline {1.1}One-Dimensional Waves}{6}
-\contentsline {subsection}{\numberline {1.1.1}The Differential Wave Equation}{7}
-\contentsline {section}{\numberline {1.2}Harmonic Waves}{7}
-\contentsline {section}{\numberline {1.3}Phase and Phase Velocity}{8}
-\contentsline {section}{\numberline {1.4}The Superposition Principal (basics)}{8}
-\contentsline {section}{\numberline {1.5}The Complex Representation}{9}
-\contentsline {section}{\numberline {1.6}Phasors and the Addition of Waves}{9}
-\contentsline {section}{\numberline {1.7}Plane Waves}{9}
-\contentsline {section}{\numberline {1.8}The Three-Dimensional Wave Equation}{9}
-\contentsline {section}{\numberline {1.9}Spherical Waves}{10}
-\contentsline {section}{\numberline {1.10}Cylindrical Waves}{10}
-\contentsline {section}{\numberline {1.11}Glossary}{10}
-\contentsline {section}{\numberline {1.12}Important Equations}{11}
-\contentsline {section}{\numberline {1.13}Homework Problems}{12}
-\contentsline {chapter}{\numberline {2}Superposition of Waves}{18}
-\contentsline {section}{\numberline {2.1}Addition of Waves of the Same Frequency}{18}
-\contentsline {subsection}{\numberline {2.1.1}The Algebraic Method}{18}
-\contentsline {subsection}{\numberline {2.1.2}Standing Waves}{19}
-\contentsline {section}{\numberline {2.2}Addition of Waves of Different frequency}{20}
-\contentsline {subsection}{\numberline {2.2.1}Beats}{20}
-\contentsline {section}{\numberline {2.3}Anharmonic Periodic Waves}{20}
-\contentsline {section}{\numberline {2.4}Nonperiodic Waves}{21}
-\contentsline {section}{\numberline {2.5}Glossary}{21}
-\contentsline {section}{\numberline {2.6}Useful Equations}{22}
-\contentsline {chapter}{\numberline {3}Electromagnetic Theory, Photons, and Light}{23}
-\contentsline {section}{\numberline {3.1}Basic Laws of Electromagnetic Theory}{23}
-\contentsline {section}{\numberline {3.2}Electromagnetic Waves}{24}
-\contentsline {section}{\numberline {3.3}Energy and Momentum}{24}
-\contentsline {section}{\numberline {3.4}Radiation}{24}
-\contentsline {section}{\numberline {3.5}Light in Bulk Matter}{25}
-\contentsline {section}{\numberline {3.6}The Electromagnetic-Photon Spectrum}{25}
-\contentsline {section}{\numberline {3.7}Glossary}{25}
-\contentsline {section}{\numberline {3.8}Useful Equations}{26}
-\contentsline {chapter}{\numberline {4}Polarization}{28}
-\contentsline {section}{\numberline {4.1}The nature of polarized light}{28}
-\contentsline {subsection}{\numberline {4.1.1}Linear Polarization}{28}
-\contentsline {subsection}{\numberline {4.1.2}Circular Polarization}{29}
-\contentsline {subsection}{\numberline {4.1.3}Elliptical Polarization}{29}
-\contentsline {subsection}{\numberline {4.1.4}Natural light}{29}
-\contentsline {subsection}{\numberline {4.1.5}Angular Momentum and Photon Picture}{30}
-\contentsline {section}{\numberline {4.2}Polarizers}{30}
-\contentsline {subsection}{\numberline {4.2.1}Malus's Law}{30}
-\contentsline {subsection}{\numberline {4.2.2}Dichroism}{31}
-\contentsline {subsection}{\numberline {4.2.3}Birefringence}{31}
-\contentsline {subsection}{\numberline {4.2.4}Scattering and polarization}{31}
-\contentsline {subsection}{\numberline {4.2.5}Polarization by reflection}{31}
-\contentsline {section}{\numberline {4.3}Retarders}{32}
-\contentsline {subsection}{\numberline {4.3.1}The Full-Wave Plate}{32}
-\contentsline {subsection}{\numberline {4.3.2}The Half-Wave Plate}{33}
-\contentsline {subsection}{\numberline {4.3.3}The Quarter-Wave Plate}{33}
-\contentsline {subsection}{\numberline {4.3.4}Fresnel Rhomb}{33}
-\contentsline {subsection}{\numberline {4.3.5}Compensators and Variable Retarders}{33}
-\contentsline {section}{\numberline {4.4}Circular polarizers}{33}
-\contentsline {section}{\numberline {4.5}Optical Activity}{34}
-\contentsline {section}{\numberline {4.6}Induced Optical Effects - Optical Modulators}{34}
-\contentsline {subsection}{\numberline {4.6.1}Photoelasticity (stress birefringence)}{34}
-\contentsline {subsection}{\numberline {4.6.2}The Faraday Effect}{34}
-\contentsline {subsection}{\numberline {4.6.3}The Kerr and Pockels Effects}{34}
-\contentsline {section}{\numberline {4.7}Liquid Crystals}{35}
-\contentsline {section}{\numberline {4.8}A Mathematical Description of Polarization}{35}
-\contentsline {subsection}{\numberline {4.8.1}The Stokes Parameters}{35}
-\contentsline {subsection}{\numberline {4.8.2}The Jones Vectors}{35}
-\contentsline {subsection}{\numberline {4.8.3}Jones and Mueller Matrices}{35}
-\contentsline {section}{\numberline {4.9}Glossary}{36}
-\contentsline {section}{\numberline {4.10}Useful Equations}{37}
-\contentsline {chapter}{\numberline {5}Interference}{39}
-\contentsline {chapter}{\numberline {6}Modern Optics - Lasers and Such}{40}
-\contentsline {part}{II\hspace {1em}Light and Matter}{41}
-\contentsline {chapter}{\numberline {7}The Propagation of light}{42}
-\contentsline {section}{\numberline {7.1}Rayleigh Scattering}{42}
-\contentsline {subsection}{\numberline {7.1.1}Scattering and Interference}{42}
-\contentsline {paragraph}{Forward Propagation}{42}
-\contentsline {subsection}{\numberline {7.1.2}The Transmission of Light Through Dense Media}{42}
-\contentsline {subsection}{\numberline {7.1.3}Transmission and the Index of Refraction}{43}
-\contentsline {section}{\numberline {7.2}Reflection}{43}
-\contentsline {subsection}{\numberline {7.2.1}The Law of Reflection}{43}
-\contentsline {paragraph}{Rays}{43}
-\contentsline {section}{\numberline {7.3}Refraction}{44}
-\contentsline {subsection}{\numberline {7.3.1}The Law of Refraction}{44}
-\contentsline {subsection}{\numberline {7.3.2}Huygen's Principle}{45}
-\contentsline {subsection}{\numberline {7.3.3}Light Rays and Normal Congruence}{45}
-\contentsline {section}{\numberline {7.4}Fermat's Principle}{45}
-\contentsline {section}{\numberline {7.5}The Electromagnetic Approach}{46}
-\contentsline {subsection}{\numberline {7.5.1}Waves at an Interface}{46}
-\contentsline {subsection}{\numberline {7.5.2}The Fresnel Equations}{46}
-\contentsline {paragraph}{$\mathaccent "017E\relax {E}$ perpendicular to plane-of-incidence:}{46}
-\contentsline {paragraph}{$\mathaccent "017E\relax {E}$ parallel to plane-of-incidence:}{47}
-\contentsline {paragraph}{Reflectance and Transmittance}{47}
-\contentsline {section}{\numberline {7.6}Total Internal Reflection}{48}
-\contentsline {subsection}{\numberline {7.6.1}The Evanescent Wave}{48}
-\contentsline {section}{\numberline {7.7}Glossary}{48}
-\contentsline {section}{\numberline {7.8}Useful Equations}{50}
-\contentsline {chapter}{\numberline {8}Diffraction}{51}
-\contentsline {section}{\numberline {8.1}Preliminary considerations}{51}
-\contentsline {section}{\numberline {8.2}Fraunhofer Diffraction}{51}
-\contentsline {section}{\numberline {8.3}Fresnel Diffraction}{51}
-\contentsline {section}{\numberline {8.4}Glossary}{52}
-\contentsline {section}{\numberline {8.5}Useful Equations}{53}
-\contentsline {chapter}{\numberline {9}Basics of Coherence Theory}{54}
-\contentsline {part}{III\hspace {1em}Analysis Techniques}{55}
-\contentsline {chapter}{\numberline {10}Geometrical Optics}{56}
-\contentsline {section}{\numberline {10.1}Introduction}{56}
-\contentsline {section}{\numberline {10.2}Lenses}{56}
-\contentsline {subsection}{\numberline {10.2.1}Aspherical Surfaces}{56}
-\contentsline {subsection}{\numberline {10.2.2}Refraction at Spherical Surfaces}{56}
-\contentsline {subsection}{\numberline {10.2.3}Thin Lenses}{57}
-\contentsline {paragraph}{Thin-Lens Equations}{57}
-\contentsline {paragraph}{Focal Points and Planes}{58}
-\contentsline {paragraph}{Finite Imagery}{59}
-\contentsline {paragraph}{Thin Lens Combinations}{60}
-\contentsline {section}{\numberline {10.3}Stops}{61}
-\contentsline {subsection}{\numberline {10.3.1}Aperture and Field Stops}{61}
-\contentsline {subsection}{\numberline {10.3.2}Entrance and Exit Pupils}{61}
-\contentsline {subsection}{\numberline {10.3.3}Relative Aperture and f-Number}{62}
-\contentsline {section}{\numberline {10.4}Mirrors}{62}
-\contentsline {subsection}{\numberline {10.4.1}Planar Mirrors}{62}
-\contentsline {subsection}{\numberline {10.4.2}Aspherical Mirrors}{62}
-\contentsline {subsection}{\numberline {10.4.3}Spherical Mirrors}{62}
-\contentsline {section}{\numberline {10.5}Prisms}{63}
-\contentsline {subsection}{\numberline {10.5.1}Dispersing prisms}{63}
-\contentsline {subsection}{\numberline {10.5.2}Reflecting prisms}{64}
-\contentsline {section}{\numberline {10.6}Optical Systems}{64}
-\contentsline {subsection}{\numberline {10.6.1}The compound microscope}{64}
-\contentsline {subsection}{\numberline {10.6.2}The telescope}{64}
-\contentsline {section}{\numberline {10.7}Glossary}{64}
-\contentsline {section}{\numberline {10.8}Useful Equations}{66}
-\contentsline {chapter}{\numberline {11}More on Geometrical Optics}{67}
-\contentsline {section}{\numberline {11.1}Thick Lenses and Lens Systems}{67}
-\contentsline {section}{\numberline {11.2}Analytical Ray Tracing}{68}
-\contentsline {subsection}{\numberline {11.2.1}Matrix Methods}{68}
-\contentsline {section}{\numberline {11.3}Aberrations}{68}
-\contentsline {subsection}{\numberline {11.3.1}Spherical Aberrations}{68}
-\contentsline {subsection}{\numberline {11.3.2}Coma}{69}
-\contentsline {subsection}{\numberline {11.3.3}Astigmatism}{69}
-\contentsline {subsection}{\numberline {11.3.4}Field Curvature}{69}
-\contentsline {subsection}{\numberline {11.3.5}Distortion}{69}
-\contentsline {section}{\numberline {11.4}GRIN Systems}{69}
-\contentsline {section}{\numberline {11.5}Glossary}{69}
-\contentsline {section}{\numberline {11.6}Useful Equations}{70}
-\contentsline {chapter}{\numberline {12}Fourier Optics}{71}
-\contentsline {section}{\numberline {12.1}Fourier Transforms}{71}
-\contentsline {subsection}{\numberline {12.1.1}Dirac Delta Function}{71}
-\contentsline {section}{\numberline {12.2}Optical Applications}{72}
-\contentsline {subsection}{\numberline {12.2.1}Correlation analysis}{72}
-\contentsline {section}{\numberline {12.3}Imagery - The Spatial Distribution of Optical Information}{72}
-\contentsline {subsection}{\numberline {12.3.1}Spatial Frequencies}{72}
-\contentsline {subsection}{\numberline {12.3.2}Spatial Filtering}{72}
-\contentsline {subsection}{\numberline {12.3.3}Phase Contrast}{72}
-\contentsline {subsection}{\numberline {12.3.4}Dark-Ground and Chileren Methods}{72}
-\contentsline {section}{\numberline {12.4}Glossary}{73}
-\contentsline {section}{\numberline {12.5}Useful equations}{74}
+\contentsline {part}{I\hspace {1em}Physics of Light}{6}
+\contentsline {chapter}{\numberline {1}Wave Motion}{7}
+\contentsline {section}{\numberline {1.1}One-Dimensional Waves}{7}
+\contentsline {subsection}{\numberline {1.1.1}The Differential Wave Equation}{8}
+\contentsline {section}{\numberline {1.2}Harmonic Waves}{8}
+\contentsline {section}{\numberline {1.3}Phase and Phase Velocity}{9}
+\contentsline {section}{\numberline {1.4}The Superposition Principal (basics)}{9}
+\contentsline {section}{\numberline {1.5}The Complex Representation}{10}
+\contentsline {section}{\numberline {1.6}Phasors and the Addition of Waves}{10}
+\contentsline {section}{\numberline {1.7}Plane Waves}{10}
+\contentsline {section}{\numberline {1.8}The Three-Dimensional Wave Equation}{10}
+\contentsline {section}{\numberline {1.9}Spherical Waves}{11}
+\contentsline {section}{\numberline {1.10}Cylindrical Waves}{11}
+\contentsline {section}{\numberline {1.11}Glossary}{11}
+\contentsline {section}{\numberline {1.12}Important Equations}{12}
+\contentsline {section}{\numberline {1.13}Homework Problems}{13}
+\contentsline {chapter}{\numberline {2}Superposition of Waves}{19}
+\contentsline {section}{\numberline {2.1}Addition of Waves of the Same Frequency}{19}
+\contentsline {subsection}{\numberline {2.1.1}The Algebraic Method}{19}
+\contentsline {subsection}{\numberline {2.1.2}Standing Waves}{20}
+\contentsline {section}{\numberline {2.2}Addition of Waves of Different frequency}{21}
+\contentsline {subsection}{\numberline {2.2.1}Beats}{21}
+\contentsline {section}{\numberline {2.3}Anharmonic Periodic Waves}{21}
+\contentsline {section}{\numberline {2.4}Nonperiodic Waves}{22}
+\contentsline {section}{\numberline {2.5}Glossary}{22}
+\contentsline {section}{\numberline {2.6}Useful Equations}{23}
+\contentsline {chapter}{\numberline {3}Electromagnetic Theory, Photons, and Light}{24}
+\contentsline {section}{\numberline {3.1}Basic Laws of Electromagnetic Theory}{24}
+\contentsline {section}{\numberline {3.2}Electromagnetic Waves}{25}
+\contentsline {section}{\numberline {3.3}Energy and Momentum}{25}
+\contentsline {section}{\numberline {3.4}Radiation}{25}
+\contentsline {section}{\numberline {3.5}Light in Bulk Matter}{26}
+\contentsline {section}{\numberline {3.6}The Electromagnetic-Photon Spectrum}{26}
+\contentsline {section}{\numberline {3.7}Glossary}{26}
+\contentsline {section}{\numberline {3.8}Useful Equations}{27}
+\contentsline {chapter}{\numberline {4}Polarization}{29}
+\contentsline {section}{\numberline {4.1}The nature of polarized light}{29}
+\contentsline {subsection}{\numberline {4.1.1}Linear Polarization}{29}
+\contentsline {subsection}{\numberline {4.1.2}Circular Polarization}{30}
+\contentsline {subsection}{\numberline {4.1.3}Elliptical Polarization}{30}
+\contentsline {subsection}{\numberline {4.1.4}Natural light}{30}
+\contentsline {subsection}{\numberline {4.1.5}Angular Momentum and Photon Picture}{31}
+\contentsline {section}{\numberline {4.2}Polarizers}{31}
+\contentsline {subsection}{\numberline {4.2.1}Malus's Law}{31}
+\contentsline {subsection}{\numberline {4.2.2}Dichroism}{32}
+\contentsline {subsection}{\numberline {4.2.3}Birefringence}{32}
+\contentsline {subsection}{\numberline {4.2.4}Scattering and polarization}{32}
+\contentsline {subsection}{\numberline {4.2.5}Polarization by reflection}{32}
+\contentsline {section}{\numberline {4.3}Retarders}{33}
+\contentsline {subsection}{\numberline {4.3.1}The Full-Wave Plate}{33}
+\contentsline {subsection}{\numberline {4.3.2}The Half-Wave Plate}{34}
+\contentsline {subsection}{\numberline {4.3.3}The Quarter-Wave Plate}{34}
+\contentsline {subsection}{\numberline {4.3.4}Fresnel Rhomb}{34}
+\contentsline {subsection}{\numberline {4.3.5}Compensators and Variable Retarders}{34}
+\contentsline {section}{\numberline {4.4}Circular polarizers}{34}
+\contentsline {section}{\numberline {4.5}Optical Activity}{35}
+\contentsline {section}{\numberline {4.6}Induced Optical Effects - Optical Modulators}{35}
+\contentsline {subsection}{\numberline {4.6.1}Photoelasticity (stress birefringence)}{35}
+\contentsline {subsection}{\numberline {4.6.2}The Faraday Effect}{35}
+\contentsline {subsection}{\numberline {4.6.3}The Kerr and Pockels Effects}{35}
+\contentsline {section}{\numberline {4.7}Liquid Crystals}{36}
+\contentsline {section}{\numberline {4.8}A Mathematical Description of Polarization}{36}
+\contentsline {subsection}{\numberline {4.8.1}The Stokes Parameters}{36}
+\contentsline {subsection}{\numberline {4.8.2}The Jones Vectors}{36}
+\contentsline {subsection}{\numberline {4.8.3}Jones and Mueller Matrices}{36}
+\contentsline {section}{\numberline {4.9}Glossary}{37}
+\contentsline {section}{\numberline {4.10}Useful Equations}{38}
+\contentsline {chapter}{\numberline {5}Interference}{40}
+\contentsline {chapter}{\numberline {6}Modern Optics - Lasers and Such}{52}
+\contentsline {part}{II\hspace {1em}Light and Matter}{53}
+\contentsline {chapter}{\numberline {7}The Propagation of light}{54}
+\contentsline {section}{\numberline {7.1}Rayleigh Scattering}{54}
+\contentsline {subsection}{\numberline {7.1.1}Scattering and Interference}{54}
+\contentsline {paragraph}{Forward Propagation}{54}
+\contentsline {subsection}{\numberline {7.1.2}The Transmission of Light Through Dense Media}{54}
+\contentsline {subsection}{\numberline {7.1.3}Transmission and the Index of Refraction}{55}
+\contentsline {section}{\numberline {7.2}Reflection}{55}
+\contentsline {subsection}{\numberline {7.2.1}The Law of Reflection}{55}
+\contentsline {paragraph}{Rays}{55}
+\contentsline {section}{\numberline {7.3}Refraction}{56}
+\contentsline {subsection}{\numberline {7.3.1}The Law of Refraction}{56}
+\contentsline {subsection}{\numberline {7.3.2}Huygen's Principle}{57}
+\contentsline {subsection}{\numberline {7.3.3}Light Rays and Normal Congruence}{57}
+\contentsline {section}{\numberline {7.4}Fermat's Principle}{57}
+\contentsline {section}{\numberline {7.5}The Electromagnetic Approach}{58}
+\contentsline {subsection}{\numberline {7.5.1}Waves at an Interface}{58}
+\contentsline {subsection}{\numberline {7.5.2}The Fresnel Equations}{58}
+\contentsline {paragraph}{$\mathaccent "017E\relax {E}$ perpendicular to plane-of-incidence:}{58}
+\contentsline {paragraph}{$\mathaccent "017E\relax {E}$ parallel to plane-of-incidence:}{59}
+\contentsline {paragraph}{Reflectance and Transmittance}{59}
+\contentsline {section}{\numberline {7.6}Total Internal Reflection}{60}
+\contentsline {subsection}{\numberline {7.6.1}The Evanescent Wave}{60}
+\contentsline {section}{\numberline {7.7}Glossary}{60}
+\contentsline {section}{\numberline {7.8}Useful Equations}{62}
+\contentsline {chapter}{\numberline {8}Diffraction}{63}
+\contentsline {section}{\numberline {8.1}Preliminary considerations}{63}
+\contentsline {section}{\numberline {8.2}Fraunhofer Diffraction}{63}
+\contentsline {section}{\numberline {8.3}Fresnel Diffraction}{63}
+\contentsline {section}{\numberline {8.4}Glossary}{64}
+\contentsline {section}{\numberline {8.5}Useful Equations}{65}
+\contentsline {chapter}{\numberline {9}Basics of Coherence Theory}{66}
+\contentsline {section}{\numberline {9.1}Introduction}{66}
+\contentsline {section}{\numberline {9.2}Visibility}{66}
+\contentsline {section}{\numberline {9.3}Mutual Coherence Function and Degree of Coherence}{66}
+\contentsline {subsection}{\numberline {9.3.1}Temporal and Spatial Coherence}{67}
+\contentsline {section}{\numberline {9.4}Lasers and Laserlight}{67}
+\contentsline {subsection}{\numberline {9.4.1}Radiant Energy and Matter in Equilibrium}{67}
+\contentsline {section}{\numberline {9.5}Glossary}{67}
+\contentsline {part}{III\hspace {1em}Analysis Techniques}{69}
+\contentsline {chapter}{\numberline {10}Geometrical Optics}{70}
+\contentsline {section}{\numberline {10.1}Introduction}{70}
+\contentsline {section}{\numberline {10.2}Lenses}{70}
+\contentsline {subsection}{\numberline {10.2.1}Aspherical Surfaces}{70}
+\contentsline {subsection}{\numberline {10.2.2}Refraction at Spherical Surfaces}{70}
+\contentsline {subsection}{\numberline {10.2.3}Thin Lenses}{71}
+\contentsline {paragraph}{Thin-Lens Equations}{71}
+\contentsline {paragraph}{Focal Points and Planes}{72}
+\contentsline {paragraph}{Finite Imagery}{73}
+\contentsline {paragraph}{Thin Lens Combinations}{74}
+\contentsline {section}{\numberline {10.3}Stops}{75}
+\contentsline {subsection}{\numberline {10.3.1}Aperture and Field Stops}{75}
+\contentsline {subsection}{\numberline {10.3.2}Entrance and Exit Pupils}{75}
+\contentsline {subsection}{\numberline {10.3.3}Relative Aperture and f-Number}{76}
+\contentsline {section}{\numberline {10.4}Mirrors}{76}
+\contentsline {subsection}{\numberline {10.4.1}Planar Mirrors}{76}
+\contentsline {subsection}{\numberline {10.4.2}Aspherical Mirrors}{76}
+\contentsline {subsection}{\numberline {10.4.3}Spherical Mirrors}{76}
+\contentsline {section}{\numberline {10.5}Prisms}{77}
+\contentsline {subsection}{\numberline {10.5.1}Dispersing prisms}{77}
+\contentsline {subsection}{\numberline {10.5.2}Reflecting prisms}{78}
+\contentsline {section}{\numberline {10.6}Optical Systems}{78}
+\contentsline {subsection}{\numberline {10.6.1}The compound microscope}{78}
+\contentsline {subsection}{\numberline {10.6.2}The telescope}{78}
+\contentsline {section}{\numberline {10.7}Glossary}{78}
+\contentsline {section}{\numberline {10.8}Useful Equations}{80}
+\contentsline {chapter}{\numberline {11}More on Geometrical Optics}{81}
+\contentsline {section}{\numberline {11.1}Thick Lenses and Lens Systems}{81}
+\contentsline {section}{\numberline {11.2}Analytical Ray Tracing}{82}
+\contentsline {subsection}{\numberline {11.2.1}Matrix Methods}{82}
+\contentsline {section}{\numberline {11.3}Aberrations}{82}
+\contentsline {subsection}{\numberline {11.3.1}Spherical Aberrations}{82}
+\contentsline {subsection}{\numberline {11.3.2}Coma}{83}
+\contentsline {subsection}{\numberline {11.3.3}Astigmatism}{83}
+\contentsline {subsection}{\numberline {11.3.4}Field Curvature}{83}
+\contentsline {subsection}{\numberline {11.3.5}Distortion}{83}
+\contentsline {section}{\numberline {11.4}GRIN Systems}{83}
+\contentsline {section}{\numberline {11.5}Glossary}{83}
+\contentsline {section}{\numberline {11.6}Useful Equations}{84}
+\contentsline {chapter}{\numberline {12}Fourier Optics}{85}
+\contentsline {section}{\numberline {12.1}Fourier Transforms}{85}
+\contentsline {subsection}{\numberline {12.1.1}Dirac Delta Function}{85}
+\contentsline {section}{\numberline {12.2}Optical Applications}{86}
+\contentsline {subsection}{\numberline {12.2.1}Correlation analysis}{86}
+\contentsline {section}{\numberline {12.3}Imagery - The Spatial Distribution of Optical Information}{86}
+\contentsline {subsection}{\numberline {12.3.1}Spatial Frequencies}{86}
+\contentsline {subsection}{\numberline {12.3.2}Spatial Filtering}{86}
+\contentsline {subsection}{\numberline {12.3.3}Phase Contrast}{86}
+\contentsline {subsection}{\numberline {12.3.4}Dark-Ground and Chileren Methods}{86}
+\contentsline {section}{\numberline {12.4}Glossary}{87}
+\contentsline {section}{\numberline {12.5}Useful equations}{88}

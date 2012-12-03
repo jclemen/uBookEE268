@@ -622,8 +622,14 @@ These matrices are used to model the transformation of light as it travels throu
 \[\beta = \mathcal{V}Bd\]
 
 \chapter{Interference}
-\chapter{Modern Optics - Lasers and Such}
+This chapter was presented by my group. Therefore, no notes were made to summarize here. The powerpoint that my group presented is included here for convenience. 
 
+\includepdf[ pages=- ]{opticsInterference}
+
+
+
+\chapter{Modern Optics - Lasers and Such}
+This chapter was split into the Fourier Optics and Basics of Coherence Theory Chapters. Section 1 is in coherence theory, section 2 in Fourier Optics (referencing Hecht). 
 
 
 \part{Light and Matter}
@@ -887,6 +893,75 @@ A vibration curve is a graphical method for analyzing a number of different diff
 
 
 \chapter{Basics of Coherence Theory}
+Coherence theory is focused on the study of Partially coherent light - light that is neither fully coherent nor fully incoherent. The sun's light is like this. 
+
+\section{Introduction}
+Light can be temporally or spatially coherent. Temporal coherence, $\Delta t_c$ relates to the finite bandwidth of the source and Spatial coherence relates to different photon emitters from a source being out of phase. 
+
+\section{Visibility}
+Visibility is a quantitative description of the quality of fringes produced by an interferometer. It's expression is: 
+
+\begin{equation}
+\mathcal{V}( \vec{r}) \equiv \frac{I_{max} - I_{min}}{I_{max} + I_{min}}
+\end{equation}
+
+In Young's Experiment, visibility is a function of source breadth and aperture separation, $a$.
+
+\section{Mutual Coherence Function and Degree of Coherence}
+The mutual coherence function is: 
+
+\begin{equation}
+\tilde{\Gamma}_{12}(\tau) \equiv \langle \tilde{E}_1(t + \tau) \tilde{E}_2 ^* (t) \rangle _T
+\end{equation}
+
+The normalized form of this function is referred to as the complex degree of coherence: 
+
+\begin{equation}
+\tilde{\gamma}_{12} (\tau) \equiv \frac{\tilde{\Gamma}_{12}(\tau)}{\sqrt{\Gamma_{11}(0)\Gamma_{22}(0)}} 
+\end{equation}
+
+The magnitude of this quantity, $| \gamma_{12}(\tau) |$ describes how much interference occurs. When it equals 1 light is at the coherent limit, 0 is the incoherent limit, and values in between indicate partial coherence. 
+
+\subsection{Temporal and Spatial Coherence}
+A point source is perfectly spatially coherent, but can be partially coherent temporally. 
+
+$\tilde{\Gamma}_{11}(\tau)$ is a measure of temporal coherence. The fourier transform of it is the power spectrum which describes the spectral energy distribution of the light. 
+
+\section{Lasers and Laserlight}
+Lasers are quantum devices. Understanding them requires some background in blackbody radiation and the Boltzmann distribution. 
+
+\subsection{Radiant Energy and Matter in Equilibrium}
+
+
+\section{Glossary}
+
+\begin{description}
+\item[Absorption coefficient: ] a coefficient that describes how well a body can absorb electromagnetic energy. This ranges between 0 and 1. 
+\item[Beam half-width: ]
+\item[Beam waist: ]
+\item[Blackbody: ] A body that absorbs all energy at all wavelengths. It's absorption coefficient is equal to 1. 
+\item[Complex degree of coherence: ] The normalized form of the mutual coherence function. 
+\item[Divergence: ]
+\item[Emission coefficient: ] a coefficient that describes how well a body can emit electromagnetic energy. 
+\item[Fringe visibility: ]
+\item[Lifetime (of excited state): ]
+\item[Longitudinal cavity mode: ]
+\item[Mutual coherence function: ] a function that represents the time-averaged cross-correlation between the electric fields at two points separated in time by $\tau$. 
+\item[Partially coherent: ] Light that is neither fully coherent nor incoherent (ie sunlight). 
+\item[Population inversion: ]
+\item[Pulse compression: ]
+\item[Quality factor: ]
+\item[Raman scattering (stimulated and spontaneous): ]
+\item[Rayleigh range: ]
+\item[Resonant cavity: ]
+\item[Speckle: ]
+\item[Stationary wave field: ]
+\item[Stimulated absorption: ]
+\item[Stimulated emission: ]
+\item[Thermal radiation: ] electromagnetic energy that is emitted by all objects. The source of this is random motion of constituent atoms. 
+\item[Transition rate: ]
+\item[Transverse mode: ]
+\end{description}
 
 \part{Analysis Techniques}
 \chapter{Geometrical Optics}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.12)  27 NOV 2012 00:43
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.12)  2 DEC 2012 23:37
 entering extended mode
 **uBook.tex
 (C:\Users\James\Documents\GitHub\uBookEE268\uBook.tex
@@ -184,30 +184,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
  [1
 
-] [2] [3])
+] [2] [3] [4])
 \tf@toc=\write3
- [4] [5
+ [5]
+[6
 
 ]
 Chapter 1.
-[6
+[7
 
-] [7] [8] [9] [10] [11]
-
-pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
-HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
-owed
-
+] [8] [9] [10] [11] [12]
 
 pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
 HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
 owed
-[12]
+
 
 pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
 HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
 owed
-<EE268HW1.pdf, id=59, page=1, 579.73087pt x 764.18298pt>
+[13]
+
+pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
+HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
+owed
+<EE268HW1.pdf, id=62, page=1, 579.73087pt x 764.18298pt>
 File: EE268HW1.pdf Graphic file (type pdf)
 
 <use EE268HW1.pdf, page 1>
@@ -220,13 +221,13 @@ File: EE268HW1.pdf Graphic file (type pdf)
  <use EE268HW1.pdf, page 1>
 File: EE268HW1.pdf Graphic file (type pdf)
 
-<use EE268HW1.pdf, page 1> [13 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
+<use EE268HW1.pdf, page 1> [14 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
 8HW1.pdf>]
 
 pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
 HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
 owed
-<EE268HW1.pdf, id=92, page=2, 579.60541pt x 764.25528pt>
+<EE268HW1.pdf, id=95, page=2, 579.60541pt x 764.25528pt>
 File: EE268HW1.pdf Graphic file (type pdf)
 
 <use EE268HW1.pdf, page 2>
@@ -234,13 +235,13 @@ File: EE268HW1.pdf Graphic file (type pdf)
  <use EE268HW1.pdf, page 2>
 File: EE268HW1.pdf Graphic file (type pdf)
 
-<use EE268HW1.pdf, page 2> [14 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
+<use EE268HW1.pdf, page 2> [15 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
 8HW1.pdf>]
 
 pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
 HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
 owed
-<EE268HW1.pdf, id=113, page=3, 578.16pt x 763.05077pt>
+<EE268HW1.pdf, id=116, page=3, 578.16pt x 763.05077pt>
 File: EE268HW1.pdf Graphic file (type pdf)
 
 <use EE268HW1.pdf, page 3>
@@ -248,13 +249,13 @@ File: EE268HW1.pdf Graphic file (type pdf)
  <use EE268HW1.pdf, page 3>
 File: EE268HW1.pdf Graphic file (type pdf)
 
-<use EE268HW1.pdf, page 3> [15 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
+<use EE268HW1.pdf, page 3> [16 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
 8HW1.pdf>]
 
 pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
 HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
 owed
-<EE268HW1.pdf, id=134, page=4, 579.73087pt x 764.18298pt>
+<EE268HW1.pdf, id=137, page=4, 579.73087pt x 764.18298pt>
 File: EE268HW1.pdf Graphic file (type pdf)
 
 <use EE268HW1.pdf, page 4>
@@ -262,13 +263,13 @@ File: EE268HW1.pdf Graphic file (type pdf)
  <use EE268HW1.pdf, page 4>
 File: EE268HW1.pdf Graphic file (type pdf)
 
-<use EE268HW1.pdf, page 4> [16 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
+<use EE268HW1.pdf, page 4> [17 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
 8HW1.pdf>]
 
 pdfTeX warning: pdflatex (file C:/Users/James/Documents/GitHub/uBookEE268/EE268
 HW1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
 owed
-<EE268HW1.pdf, id=149, page=5, 578.16pt x 763.05077pt>
+<EE268HW1.pdf, id=152, page=5, 578.16pt x 763.05077pt>
 File: EE268HW1.pdf Graphic file (type pdf)
 
 <use EE268HW1.pdf, page 5>
@@ -276,116 +277,236 @@ File: EE268HW1.pdf Graphic file (type pdf)
  <use EE268HW1.pdf, page 5>
 File: EE268HW1.pdf Graphic file (type pdf)
 
-<use EE268HW1.pdf, page 5> [17 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
+<use EE268HW1.pdf, page 5> [18 <C:/Users/James/Documents/GitHub/uBookEE268/EE26
 8HW1.pdf>]
 Chapter 2.
-[18
+[19
 
-] [19] [20] [21] [22]
+] [20] [21] [22] [23]
 Chapter 3.
-[23
+[24
 
-] [24] [25] [26] [27]
+] [25] [26] [27] [28]
 Chapter 4.
-[28
+[29
 
-] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
+] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39]
 Chapter 5.
-[39
-
-]
-Chapter 6.
 [40
 
-] [41
+] <opticsInterference.pdf, id=241, page=1, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 1>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 1>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 1>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 1>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 1> [41 <C:/Users/James/Documents/GitHub/uBook
+EE268/opticsInterference.pdf>]
+<opticsInterference.pdf, id=252, page=2, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 2>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 2>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 2> [42 <C:/Users/James/Documents/GitHub/uBook
+EE268/opticsInterference.pdf>]
+<opticsInterference.pdf, id=294, page=3, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 3>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 3>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 3> [43 <C:/Users/James/Documents/GitHub/uBook
+EE268/opticsInterference.pdf>]
+<opticsInterference.pdf, id=313, page=4, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 4>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 4>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 4> [44 <C:/Users/James/Documents/GitHub/uBook
+EE268/opticsInterference.pdf>]
+<opticsInterference.pdf, id=329, page=5, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 5>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 5>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 5> [45 <C:/Users/James/Documents/GitHub/uBook
+EE268/opticsInterference.pdf>]
+<opticsInterference.pdf, id=348, page=6, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 6>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 6>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 6> [46 <C:/Users/James/Documents/GitHub/uBook
+EE268/opticsInterference.pdf>]
+<opticsInterference.pdf, id=360, page=7, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 7>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 7>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 7> [47 <C:/Users/James/Documents/GitHub/uBook
+EE268/opticsInterference.pdf>]
+<opticsInterference.pdf, id=401, page=8, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 8>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 8>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 8> [48 <C:/Users/James/Documents/GitHub/uBook
+EE268/opticsInterference.pdf>]
+<opticsInterference.pdf, id=456, page=9, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 9>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 9>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 9> [49 <C:/Users/James/Documents/GitHub/uBook
+EE268/opticsInterference.pdf>]
+<opticsInterference.pdf, id=474, page=10, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 10>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 10>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 10> [50 <C:/Users/James/Documents/GitHub/uBoo
+kEE268/opticsInterference.pdf>]
+<opticsInterference.pdf, id=488, page=11, 614.295pt x 794.97pt>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 11>
+File: opticsInterference.pdf Graphic file (type pdf)
+ <use opticsInterference.pdf, page 11>
+File: opticsInterference.pdf Graphic file (type pdf)
+
+<use opticsInterference.pdf, page 11> [51 <C:/Users/James/Documents/GitHub/uBoo
+kEE268/opticsInterference.pdf>]
+Chapter 6.
+[52
+
+] [53
 
 ]
 Chapter 7.
-[42
+[54
 
-] [43]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 699.
+] [55]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 705.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 699.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 705.
 
-[44] [45] [46] [47] [48] [49] [50]
+[56] [57] [58] [59] [60] [61] [62]
 Chapter 8.
-[51
+[63
 
-] [52] [53]
+] [64] [65]
 Chapter 9.
-[54
+[66
 
-] [55
+]
+Overfull \hbox (12.39867pt too wide) in paragraph at lines 949--950
+[]\OT1/cmr/m/n/12 a func-tion that rep-re-sents the time-averaged cross-correla
+tion
+ []
+
+[67] [68] [69
 
 ]
 Chapter 10.
-[56
+[70
 
-] <SphericalLens1.jpg, id=290, 264.23718pt x 179.92218pt>
+] <SphericalLens1.jpg, id=553, 264.23718pt x 179.92218pt>
 File: SphericalLens1.jpg Graphic file (type jpg)
 
-<use SphericalLens1.jpg> <ThinLens.jpg, id=291, 438.13687pt x 238.64156pt>
+<use SphericalLens1.jpg> <ThinLens.jpg, id=554, 438.13687pt x 238.64156pt>
 File: ThinLens.jpg Graphic file (type jpg)
 
-<use ThinLens.jpg> [57 <C:/Users/James/Documents/GitHub/uBookEE268/SphericalLen
-s1.jpg>] <FocalPoint.jpg, id=295, 904.88063pt x 525.46312pt>
+<use ThinLens.jpg> [71 <C:/Users/James/Documents/GitHub/uBookEE268/SphericalLen
+s1.jpg>] <FocalPoint.jpg, id=558, 904.88063pt x 525.46312pt>
 File: FocalPoint.jpg Graphic file (type jpg)
 
-<use FocalPoint.jpg> [58 <C:/Users/James/Documents/GitHub/uBookEE268/ThinLens.j
-pg>] <FocalPlane1.jpg, id=299, 464.4853pt x 331.2375pt>
+<use FocalPoint.jpg> [72 <C:/Users/James/Documents/GitHub/uBookEE268/ThinLens.j
+pg>] <FocalPlane1.jpg, id=563, 464.4853pt x 331.2375pt>
 File: FocalPlane1.jpg Graphic file (type jpg)
  <use FocalPlane1.jpg>
-<FiniteImagery.jpg, id=300, 922.19531pt x 502.12593pt>
+<FiniteImagery.jpg, id=564, 922.19531pt x 502.12593pt>
 File: FiniteImagery.jpg Graphic file (type jpg)
  <use FiniteImagery.jpg>
-[59 <C:/Users/James/Documents/GitHub/uBookEE268/FocalPoint.jpg> <C:/Users/James
+[73 <C:/Users/James/Documents/GitHub/uBookEE268/FocalPoint.jpg> <C:/Users/James
 /Documents/GitHub/uBookEE268/FocalPlane1.jpg>]
-<ThinLensCombo.jpg, id=304, 876.27374pt x 460.72125pt>
+<ThinLensCombo.jpg, id=568, 876.27374pt x 460.72125pt>
 File: ThinLensCombo.jpg Graphic file (type jpg)
  <use ThinLensCombo.jpg>
-[60 <C:/Users/James/Documents/GitHub/uBookEE268/FiniteImagery.jpg> <C:/Users/Ja
+[74 <C:/Users/James/Documents/GitHub/uBookEE268/FiniteImagery.jpg> <C:/Users/Ja
 mes/Documents/GitHub/uBookEE268/ThinLensCombo.jpg>]
-<ChiefRay.jpg, id=309, 843.90282pt x 675.27281pt>
+<ChiefRay.jpg, id=572, 843.90282pt x 675.27281pt>
 File: ChiefRay.jpg Graphic file (type jpg)
- <use ChiefRay.jpg> [61 <C:/Users/James/Documents/GitHub/uBookEE268/ChiefRay.jp
+ <use ChiefRay.jpg> [75 <C:/Users/James/Documents/GitHub/uBookEE268/ChiefRay.jp
 g>]
-<SphericalMirror.jpg, id=313, 625.58719pt x 481.8pt>
+<SphericalMirror.jpg, id=576, 625.58719pt x 481.8pt>
 File: SphericalMirror.jpg Graphic file (type jpg)
  <use SphericalMirror.jpg>
-[62] <DispersingPrism.jpg, id=317, 435.12563pt x 255.95625pt>
+[76] <DispersingPrism.jpg, id=580, 435.12563pt x 255.95625pt>
 File: DispersingPrism.jpg Graphic file (type jpg)
 
-<use DispersingPrism.jpg> [63 <C:/Users/James/Documents/GitHub/uBookEE268/Spher
+<use DispersingPrism.jpg> [77 <C:/Users/James/Documents/GitHub/uBookEE268/Spher
 icalMirror.jpg> <C:/Users/James/Documents/GitHub/uBookEE268/DispersingPrism.jpg
->] [64] [65] [66]
+>] [78] [79] [80]
 Chapter 11.
-<ThickLensGeometry.jpg, id=331, 1254.18562pt x 456.95718pt>
+<ThickLensGeometry.jpg, id=594, 1254.18562pt x 456.95718pt>
 File: ThickLensGeometry.jpg Graphic file (type jpg)
 
-<use ThickLensGeometry.jpg> [67
+<use ThickLensGeometry.jpg> [81
 
- <C:/Users/James/Documents/GitHub/uBookEE268/ThickLensGeometry.jpg>] [68] [69] 
-[70]
+ <C:/Users/James/Documents/GitHub/uBookEE268/ThickLensGeometry.jpg>] [82] [83] 
+[84]
 Chapter 12.
-[71
+[85
 
-] [72] [73]
-Overfull \hbox (13.15833pt too wide) in paragraph at lines 1253--1254
+] [86] [87]
+Overfull \hbox (13.15833pt too wide) in paragraph at lines 1328--1329
 []\OT1/cmr/m/n/12 states that au-to-cor-re-la-tion func-tion of a wide-sense-st
 ationary
  []
 
-[74] (C:\Users\James\Documents\GitHub\uBookEE268\uBook.aux) ) 
+[88] (C:\Users\James\Documents\GitHub\uBookEE268\uBook.aux) ) 
 Here is how much of TeX's memory you used:
- 2661 strings out of 494019
- 38269 string characters out of 3143881
+ 2696 strings out of 494019
+ 39353 string characters out of 3143881
  103639 words of memory out of 3000000
- 5924 multiletter control sequences out of 15000+200000
+ 5958 multiletter control sequences out of 15000+200000
  11728 words of font info for 38 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  40i,18n,44p,954b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -404,9 +525,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on uBook.pdf (75 pages, 1204233 bytes).
+Output written on uBook.pdf (89 pages, 4410470 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
+ 676 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
